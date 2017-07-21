@@ -1,0 +1,223 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CLIENT_MNG_H	client_mng.h	2;"	d
+DEFAULT_LISTEN_BACKLOG	tcp_socket.cpp	3;"	d	file:
+MAX_DEFER_ACCEPT	tcp_socket.cpp	4;"	d	file:
+MAX_TRYTIME_INFAIL	client_mng.cpp	4;"	d	file:
+MAX_TRYTIME_INFAIL	service_mng.cpp	4;"	d	file:
+SERVICE_MNG_H	service_mng.h	2;"	d
+TCP_CLIENT_H_	tcp_client.h	2;"	d
+TCP_LISTEN_H_	tcp_listen.h	2;"	d
+TCP_SERVER_H_	tcp_server.h	2;"	d
+TCP_SOCKET_H_	tcp_socket.h	2;"	d
+_closing	tcp_socket.h	/^	bool _closing;$/;"	m	class:tcp_socket
+_ibuf	tcp_socket.h	/^	uint8_t * _ibuf;$/;"	m	class:tcp_socket
+_ibuf_len	tcp_socket.h	/^	uint32_t _ibuf_len;$/;"	m	class:tcp_socket
+_ibuf_pos	tcp_socket.h	/^	uint32_t _ibuf_pos;$/;"	m	class:tcp_socket
+_iev_accept	tcp_socket.h	/^	ev_io _iev_accept;$/;"	m	class:tcp_socket
+_iev_accept_started	tcp_socket.h	/^	bool _iev_accept_started;$/;"	m	class:tcp_socket
+_iev_read	tcp_socket.h	/^	ev_io _iev_read;$/;"	m	class:tcp_socket
+_iev_read_started	tcp_socket.h	/^	bool _iev_read_started;$/;"	m	class:tcp_socket
+_loop	tcp_socket.h	/^	struct ev_loop* _loop;$/;"	m	class:tcp_socket	typeref:struct:tcp_socket::ev_loop
+_obuf	tcp_socket.h	/^	uint8_t * _obuf;$/;"	m	class:tcp_socket
+_obuf_len	tcp_socket.h	/^	uint32_t _obuf_len;$/;"	m	class:tcp_socket
+_obuf_pos	tcp_socket.h	/^	uint32_t _obuf_pos;$/;"	m	class:tcp_socket
+_oev_connnect	tcp_socket.h	/^	ev_io _oev_connnect;$/;"	m	class:tcp_socket
+_oev_connnect_started	tcp_socket.h	/^	bool _oev_connnect_started;$/;"	m	class:tcp_socket
+_oev_write	tcp_socket.h	/^	ev_io _oev_write;$/;"	m	class:tcp_socket
+_oev_write_started	tcp_socket.h	/^	bool _oev_write_started;$/;"	m	class:tcp_socket
+_s	tcp_socket.h	/^	SOCKET _s;$/;"	m	class:tcp_socket
+_s_in_	tcp_socket.h	/^	struct sockaddr_in _s_in_;$/;"	m	class:tcp_socket	typeref:struct:tcp_socket::sockaddr_in
+_slot_map	tcp_socket.h	/^	map<uint32_t, string>	_slot_map;$/;"	m	class:tcp_socket
+_socket_type	tcp_socket.h	/^	}_socket_type;$/;"	m	class:tcp_socket	typeref:enum:tcp_socket::socket_type
+_timer_map	tcp_socket.h	/^	map<uint16_t, timer*>	_timer_map;$/;"	m	class:tcp_socket
+add_tcp	client_mng.cpp	/^bool client_mng::add_tcp(Net::tcp_client_handler_raw* pHandler)$/;"	f	class:client_mng
+add_tcp_client	net.cpp	/^bool Net::add_tcp_client(struct ev_loop* loop, Net::tcp_client_handler_raw* pHandler)$/;"	f	class:Net
+add_tcp_listen	net.cpp	/^bool Net::add_tcp_listen(struct ev_loop* loop, Net::tcp_server_handler_raw* pHandler)$/;"	f	class:Net
+add_tcp_listen	service_mng.cpp	/^bool service_mng::add_tcp_listen(Net::tcp_server_handler_raw* pHandler)$/;"	f	class:service_mng
+addr	client_mng.h	/^		digit_addr				addr;$/;"	m	struct:client_mng::tcp_channel_desc
+alive_channel_map	service_mng.h	/^		map<uint64_t, tcp_server*>		alive_channel_map;$/;"	m	struct:service_mng::tcp_channel_desc
+alive_expired_map	service_mng.h	/^		map<uint64_t, uint32_t>			alive_expired_map;$/;"	m	struct:service_mng::tcp_channel_desc
+alloc_new_id	client_mng.cpp	/^uint64_t	client_mng::alloc_new_id()$/;"	f	class:client_mng
+alloc_new_id	service_mng.cpp	/^uint64_t	service_mng::alloc_new_id()$/;"	f	class:service_mng
+attach	tcp_server.cpp	/^bool	tcp_server::attach(int fd, struct sockaddr_in& client_addr)	\/\/as server$/;"	f	class:tcp_server
+attach	tcp_socket.cpp	/^bool	tcp_socket::attach(int fd, struct sockaddr_in& client_addr)$/;"	f	class:tcp_socket
+bMakrDel	client_mng.h	/^		bool							bMakrDel;$/;"	m	struct:client_mng::tcp_channel_desc
+client	net.cpp	/^	client_mng*		client;$/;"	m	struct:ev_thread	file:
+client_mng	client_mng.cpp	/^client_mng::client_mng(struct ev_loop* loop) : m_timer_delay_del(loop)$/;"	f	class:client_mng
+client_mng	client_mng.h	/^class client_mng$/;"	c
+close	tcp_socket.cpp	/^void tcp_socket::close(bool triggle_closing\/* = true*\/)$/;"	f	class:tcp_socket
+close_gracefully	tcp_socket.cpp	/^SOCKET tcp_socket::close_gracefully(bool triggle_closing\/* = true*\/)$/;"	f	class:tcp_socket
+connect	tcp_socket.cpp	/^bool	tcp_socket::connect(const char* ip, unsigned short port)	\/\/as client$/;"	f	class:tcp_socket
+del_channel_map	service_mng.h	/^		map<uint64_t, tcp_server*>		del_channel_map;$/;"	m	struct:service_mng::tcp_channel_desc
+del_tcp	client_mng.cpp	/^void client_mng::del_tcp(uint64_t con_id)$/;"	f	class:client_mng
+del_tcp_channel	service_mng.cpp	/^void service_mng::del_tcp_channel(uint64_t con_id)$/;"	f	class:service_mng
+delay_delete	tcp_client.cpp	/^void	tcp_client::delay_delete()$/;"	f	class:tcp_client
+delay_delete	tcp_server.cpp	/^void	tcp_server::delay_delete()$/;"	f	class:tcp_server
+destroy	net.cpp	/^void	Net::destroy(struct ev_loop* loop)$/;"	f	class:Net
+do_close	tcp_client.cpp	/^void tcp_client::do_close()$/;"	f	class:tcp_client
+do_close	tcp_server.cpp	/^void tcp_server::do_close()$/;"	f	class:tcp_server
+do_send	tcp_socket.cpp	/^bool tcp_socket::do_send()$/;"	f	class:tcp_socket
+enum_tcp_channel	client_mng.cpp	/^Net::tcp_client_channel* client_mng::enum_tcp_channel(const string cluster, uint64_t& cursor)$/;"	f	class:client_mng
+enum_tcp_channel	service_mng.cpp	/^Net::tcp_server_channel* service_mng::enum_tcp_channel(const string section, uint64_t& cursor)$/;"	f	class:service_mng
+enum_tcp_client_channel	net.cpp	/^Net::tcp_client_channel* enum_tcp_client_channel(struct ev_loop* loop, const string server_cluster, uint64_t& cursor)\/\/cursor为0表示从第一个开始；返回值为0表示结束$/;"	f
+enum_tcp_server_channel	net.cpp	/^Net::tcp_server_channel* Net::enum_tcp_server_channel(struct ev_loop* loop, const string section, uint64_t& cursor)$/;"	f	class:Net
+ev_thread	net.cpp	/^	ev_thread()$/;"	f	struct:ev_thread
+ev_thread	net.cpp	/^struct ev_thread$/;"	s	file:
+expired	service_mng.h	/^		uint32_t						expired;$/;"	m	struct:service_mng::tcp_channel_desc
+find_tcp_channel	client_mng.cpp	/^Net::tcp_client_channel* client_mng::find_tcp_channel(const string section)$/;"	f	class:client_mng
+find_tcp_channel	client_mng.cpp	/^Net::tcp_client_channel* client_mng::find_tcp_channel(const struct sockaddr_in& remotr_addr)$/;"	f	class:client_mng
+find_tcp_channel	service_mng.cpp	/^Net::tcp_server_channel* service_mng::find_tcp_channel(const string section, uint64_t id)$/;"	f	class:service_mng
+find_tcp_client_channel	net.cpp	/^Net::tcp_client_channel* Net::find_tcp_client_channel(struct ev_loop* loop, const string local_section)$/;"	f	class:Net
+find_tcp_client_channel	net.cpp	/^Net::tcp_client_channel* Net::find_tcp_client_channel(struct ev_loop* loop, const struct sockaddr_in& remotr_addr)$/;"	f	class:Net
+find_tcp_server_channel	net.cpp	/^Net::tcp_server_channel* Net::find_tcp_server_channel(struct ev_loop* loop, const string section, uint64_t channel_id)$/;"	f	class:Net
+get_client_mng	net.cpp	/^client_mng*		get_client_mng(struct ev_loop* loop, bool create_if_not_exist\/* = true*\/)$/;"	f
+get_instance_via_accept_watcher	tcp_socket.h	/^	static inline tcp_socket* get_instance_via_accept_watcher(ev_io* ev) { return reinterpret_cast<tcp_socket*>(reinterpret_cast<uint8_t*>(ev)-member_offsetof(tcp_socket, _iev_accept)); }$/;"	f	class:tcp_socket
+get_instance_via_connect_watcher	tcp_socket.h	/^	static inline tcp_socket* get_instance_via_connect_watcher(ev_io* ev) { return reinterpret_cast<tcp_socket*>(reinterpret_cast<uint8_t*>(ev)-member_offsetof(tcp_socket, _oev_connnect)); }$/;"	f	class:tcp_socket
+get_instance_via_read_watcher	tcp_socket.h	/^	static inline tcp_socket* get_instance_via_read_watcher(ev_io* ev) { return reinterpret_cast<tcp_socket*>(reinterpret_cast<uint8_t*>(ev)-member_offsetof(tcp_socket, _iev_read)); }$/;"	f	class:tcp_socket
+get_instance_via_write_watcher	tcp_socket.h	/^	static inline tcp_socket* get_instance_via_write_watcher(ev_io* ev) { return reinterpret_cast<tcp_socket*>(reinterpret_cast<uint8_t*>(ev)-member_offsetof(tcp_socket, _oev_write)); }$/;"	f	class:tcp_socket
+get_kv	tcp_socket.cpp	/^bool	tcp_socket::get_kv(uint32_t key, string** value)$/;"	f	class:tcp_socket
+get_local_addr	tcp_socket.cpp	/^bool tcp_socket::get_local_addr(struct sockaddr_in& local)$/;"	f	class:tcp_socket
+get_remote_addr	tcp_socket.cpp	/^bool tcp_socket::get_remote_addr(struct sockaddr_in& peer)$/;"	f	class:tcp_socket
+get_section	client_mng.cpp	/^string client_mng::get_section(uint64_t con_id)$/;"	f	class:client_mng
+get_section	service_mng.cpp	/^string service_mng::get_section(uint64_t con_id)$/;"	f	class:service_mng
+get_section	tcp_client.cpp	/^string	tcp_client::get_section()$/;"	f	class:tcp_client
+get_section	tcp_server.cpp	/^string	tcp_server::get_section()$/;"	f	class:tcp_server
+get_service_mng	net.cpp	/^service_mng*	get_service_mng(struct ev_loop* loop, bool create_if_not_exist\/* = true*\/)$/;"	f
+get_value	tcp_client.cpp	/^bool	tcp_client::get_value(uint32_t key, void** value, size_t size)$/;"	f	class:tcp_client
+get_value	tcp_server.cpp	/^bool	tcp_server::get_value(uint32_t key, void** value, size_t size)$/;"	f	class:tcp_server
+global_id	tcp_client.cpp	/^uint64_t tcp_client::global_id()\/\/进程时空范围内唯一id$/;"	f	class:tcp_client
+global_id	tcp_server.cpp	/^uint64_t tcp_server::global_id()\/\/进程时空范围内唯一id$/;"	f	class:tcp_server
+id	client_mng.h	/^		uint64_t						id;$/;"	m	struct:client_mng::tcp_channel_desc
+id	service_mng.h	/^		uint64_t						id;$/;"	m	struct:service_mng::tcp_channel_desc
+init	tcp_client.cpp	/^bool tcp_client::init(struct ev_loop* loop, uint64_t id, Net::tcp_client_handler_raw* pHandler, client_mng* mng)$/;"	f	class:tcp_client
+init	tcp_listen.cpp	/^bool tcp_listen::init(struct ev_loop* loop, uint64_t id, Net::tcp_server_handler_raw* pHandler, service_mng* mng)$/;"	f	class:tcp_listen
+init	tcp_server.cpp	/^bool tcp_server::init(struct ev_loop* loop, uint64_t id, Net::tcp_server_handler_raw* pHandler, service_mng* mng)$/;"	f	class:tcp_server
+init	tcp_socket.cpp	/^bool	tcp_socket::init(struct ev_loop* loop, uint32_t ibuflen, uint32_t obuflen)$/;"	f	class:tcp_socket
+inner_ev_accept	tcp_socket.cpp	/^void tcp_socket::inner_ev_accept(int events)$/;"	f	class:tcp_socket
+inner_ev_connect	tcp_socket.cpp	/^void tcp_socket::inner_ev_connect(int events)$/;"	f	class:tcp_socket
+inner_ev_read	tcp_socket.cpp	/^void tcp_socket::inner_ev_read(int events)$/;"	f	class:tcp_socket
+inner_ev_write	tcp_socket.cpp	/^void tcp_socket::inner_ev_write(int events)$/;"	f	class:tcp_socket
+is_del	client_mng.cpp	/^bool client_mng::is_del(uint64_t con_id)$/;"	f	class:client_mng
+is_del	service_mng.cpp	/^bool service_mng::is_del(uint64_t id)$/;"	f	class:service_mng
+is_empty	net.cpp	/^	bool is_empty()$/;"	f	struct:ev_thread
+listen	tcp_listen.cpp	/^bool	tcp_listen::listen(const char* ip, unsigned short port, uint32_t backlog, uint32_t defer_accept)	\/\/as listen$/;"	f	class:tcp_listen
+listen	tcp_socket.cpp	/^bool	tcp_socket::listen(const char* ip, unsigned short port, uint32_t backlog, uint32_t defer_accept)	\/\/as server$/;"	f	class:tcp_socket
+local_addr	tcp_client.cpp	/^bool tcp_client::local_addr(struct sockaddr_in& local)$/;"	f	class:tcp_client
+local_addr	tcp_server.cpp	/^bool tcp_server::local_addr(struct sockaddr_in& local)$/;"	f	class:tcp_server
+m_id	tcp_client.h	/^	uint64_t m_id;$/;"	m	class:tcp_client
+m_id	tcp_listen.h	/^	uint64_t	m_id;$/;"	m	class:tcp_listen
+m_id	tcp_server.h	/^	uint64_t m_id;$/;"	m	class:tcp_server
+m_id_counter	client_mng.h	/^	uint64_t	m_id_counter;$/;"	m	class:client_mng
+m_id_counter	service_mng.h	/^	uint64_t	m_id_counter;$/;"	m	class:service_mng
+m_ip	tcp_client.h	/^	string m_ip;$/;"	m	class:tcp_client
+m_loop	client_mng.h	/^	struct ev_loop*	m_loop;$/;"	m	class:client_mng	typeref:struct:client_mng::ev_loop
+m_loop	service_mng.h	/^	struct ev_loop*	m_loop;$/;"	m	class:service_mng	typeref:struct:service_mng::ev_loop
+m_mng	tcp_client.h	/^	client_mng* m_mng;$/;"	m	class:tcp_client
+m_mng	tcp_listen.h	/^	service_mng* m_mng;$/;"	m	class:tcp_listen
+m_mng	tcp_server.h	/^	service_mng* m_mng;$/;"	m	class:tcp_server
+m_pHandler	tcp_client.h	/^	Net::tcp_client_handler_raw* m_pHandler;$/;"	m	class:tcp_client
+m_pHandler	tcp_listen.h	/^	Net::tcp_server_handler_raw* m_pHandler;$/;"	m	class:tcp_listen
+m_pHandler	tcp_server.h	/^	Net::tcp_server_handler_raw* m_pHandler;$/;"	m	class:tcp_server
+m_port	tcp_client.h	/^	uint16_t	m_port;$/;"	m	class:tcp_client
+m_tcp_addr	client_mng.h	/^	map<digit_addr, uint64_t>			m_tcp_addr;$/;"	m	class:client_mng
+m_tcp_channel	client_mng.h	/^	map<uint64_t, tcp_channel_desc>		m_tcp_channel;$/;"	m	class:client_mng
+m_tcp_channel	service_mng.h	/^	map<uint64_t, tcp_channel_desc>		m_tcp_channel;$/;"	m	class:service_mng
+m_tcp_section	client_mng.h	/^	map<string, uint64_t>				m_tcp_section;$/;"	m	class:client_mng
+m_tcp_section	service_mng.h	/^	map<string, uint64_t>				m_tcp_section;\/\/通过section找服务描述id$/;"	m	class:service_mng
+m_tcp_server	service_mng.h	/^	map<uint64_t, uint64_t>				m_tcp_server;\/\/通过连接id找服务描述id$/;"	m	class:service_mng
+m_timer_delay_del	client_mng.h	/^	timer								m_timer_delay_del;$/;"	m	class:client_mng
+m_timer_delay_del	service_mng.h	/^	timer							m_timer_delay_del;$/;"	m	class:service_mng
+on_accept	service_mng.cpp	/^void	service_mng::on_accept(uint64_t listen_con_id, int new_fd, struct sockaddr_in client_addr)$/;"	f	class:service_mng
+on_accept	tcp_listen.cpp	/^void	tcp_listen::on_accept(int fd, struct sockaddr_in client_addr)$/;"	f	class:tcp_listen
+on_accept	tcp_socket.cpp	/^void	tcp_socket::on_accept(int fd, struct sockaddr_in client_addr)$/;"	f	class:tcp_socket
+on_accepted	tcp_server.cpp	/^void	tcp_server::on_accepted()	\/\/连接被接受，对应client的on_connect$/;"	f	class:tcp_server
+on_closing	client_mng.cpp	/^void client_mng::on_closing(uint64_t id)$/;"	f	class:client_mng
+on_closing	tcp_client.cpp	/^void tcp_client::on_closing()$/;"	f	class:tcp_client
+on_closing	tcp_server.cpp	/^void	tcp_server::on_closing()$/;"	f	class:tcp_server
+on_closing	tcp_socket.cpp	/^void	tcp_socket::on_closing()$/;"	f	class:tcp_socket
+on_connect	client_mng.cpp	/^void client_mng::on_connect(uint64_t id)$/;"	f	class:client_mng
+on_connect	tcp_client.cpp	/^void tcp_client::on_connect()$/;"	f	class:tcp_client
+on_connect	tcp_socket.cpp	/^void	tcp_socket::on_connect()$/;"	f	class:tcp_socket
+on_error	tcp_client.cpp	/^void tcp_client::on_error(ERROR_CODE err)$/;"	f	class:tcp_client
+on_error	tcp_socket.cpp	/^void	tcp_socket::on_error(ERROR_CODE err)$/;"	f	class:tcp_socket
+on_inner_timer	tcp_client.cpp	/^void	tcp_client::on_inner_timer(uint16_t timer_id)$/;"	f	class:tcp_client
+on_inner_timer	tcp_server.cpp	/^void	tcp_server::on_inner_timer(uint16_t timer_id)$/;"	f	class:tcp_server
+on_inner_timer	tcp_socket.cpp	/^void	tcp_socket::on_inner_timer(uint16_t timer_id)$/;"	f	class:tcp_socket
+on_recv	tcp_client.cpp	/^int32_t tcp_client::on_recv(const uint8_t* pkg, uint32_t len)$/;"	f	class:tcp_client
+on_recv	tcp_server.cpp	/^int32_t tcp_server::on_recv(const uint8_t* data, uint32_t data_len)$/;"	f	class:tcp_server
+on_recv	tcp_socket.cpp	/^int32_t tcp_socket::on_recv(const uint8_t* data, uint32_t data_len)$/;"	f	class:tcp_socket
+on_timer_cb	tcp_socket.cpp	/^void	tcp_socket::on_timer_cb(timer* t)$/;"	f	class:tcp_socket
+on_timer_check_expired	service_mng.cpp	/^void	service_mng::on_timer_check_expired(timer* timer)$/;"	f	class:service_mng
+on_timer_delay_del	client_mng.cpp	/^void	client_mng::on_timer_delay_del(timer* timer)$/;"	f	class:client_mng
+on_timer_delay_del	service_mng.cpp	/^void	service_mng::on_timer_delay_del(timer* timer)$/;"	f	class:service_mng
+operator =	tcp_client.h	/^	inline tcp_client& operator = (const tcp_client& u){ return *this; }$/;"	f	class:tcp_client
+raw_channel_ptr	client_mng.h	/^		tcp_client*						raw_channel_ptr;$/;"	m	struct:client_mng::tcp_channel_desc
+raw_handler_ptr	client_mng.h	/^		Net::tcp_client_handler_raw*	raw_handler_ptr;$/;"	m	struct:client_mng::tcp_channel_desc
+raw_handler_ptr	service_mng.h	/^		Net::tcp_server_handler_raw*	raw_handler_ptr;$/;"	m	struct:service_mng::tcp_channel_desc
+remote_addr	tcp_client.cpp	/^bool tcp_client::remote_addr(struct sockaddr_in& peer)$/;"	f	class:tcp_client
+remote_addr	tcp_server.cpp	/^bool tcp_server::remote_addr(struct sockaddr_in& peer)$/;"	f	class:tcp_server
+run	net.cpp	/^void Net::run(struct ev_loop* loop)$/;"	f	class:Net
+s_mutex	net.cpp	/^static pthread_mutex_t s_mutex = PTHREAD_RECURSIVE_MUTEX_INITIALIZER_NP;$/;"	v	file:
+section	client_mng.h	/^		string							section;$/;"	m	struct:client_mng::tcp_channel_desc
+section_name	service_mng.h	/^		string							section_name;$/;"	m	struct:service_mng::tcp_channel_desc
+send	tcp_socket.cpp	/^bool	tcp_socket::send(const uint8_t* data, uint32_t data_len)$/;"	f	class:tcp_socket
+service	net.cpp	/^	service_mng*	service;$/;"	m	struct:ev_thread	file:
+service_mng	service_mng.cpp	/^service_mng::service_mng(struct ev_loop* loop) : m_timer_delay_del(loop)$/;"	f	class:service_mng
+service_mng	service_mng.h	/^class service_mng$/;"	c
+set_kv	tcp_socket.cpp	/^void	tcp_socket::set_kv(uint32_t key, const string& value)$/;"	f	class:tcp_socket
+set_value	tcp_client.cpp	/^void	tcp_client::set_value(uint32_t key, void* value, size_t size)$/;"	f	class:tcp_client
+set_value	tcp_server.cpp	/^void	tcp_server::set_value(uint32_t key, void* value, size_t size)$/;"	f	class:tcp_server
+shutdown	tcp_socket.h	/^	inline void shutdown() { shutdown_sock(_s, SHUT_RDWR); }$/;"	f	class:tcp_socket
+shutdown_read	tcp_socket.h	/^	inline void shutdown_read() { shutdown_sock(_s, SHUT_RD); }$/;"	f	class:tcp_socket
+shutdown_write	tcp_socket.h	/^	inline void shutdown_write() { shutdown_sock(_s, SHUT_WR); }$/;"	f	class:tcp_socket
+socket_type	tcp_socket.h	/^	enum socket_type$/;"	g	class:tcp_socket
+st_client	tcp_socket.h	/^		st_client = 3,\/\/client side channel$/;"	e	enum:tcp_socket::socket_type
+st_listen	tcp_socket.h	/^		st_listen = 1,\/\/listen server$/;"	e	enum:tcp_socket::socket_type
+st_none	tcp_socket.h	/^		st_none = 0,$/;"	e	enum:tcp_socket::socket_type
+st_server	tcp_socket.h	/^		st_server = 2,\/\/server side channel$/;"	e	enum:tcp_socket::socket_type
+start_inner_timer	tcp_socket.cpp	/^void	tcp_socket::start_inner_timer(uint16_t timer_id, uint32_t ms, bool repeat)$/;"	f	class:tcp_socket
+start_timer	tcp_client.cpp	/^void	tcp_client::start_timer(uint16_t timer_id, uint32_t ms, bool repeat)$/;"	f	class:tcp_client
+start_timer	tcp_server.cpp	/^void	tcp_server::start_timer(uint16_t timer_id, uint32_t ms, bool repeat)$/;"	f	class:tcp_server
+start_watch_accept	tcp_socket.h	/^	inline void start_watch_accept() { if (!_iev_accept_started) { ev_io_start(_loop, &_iev_accept); _iev_accept_started = true; } }$/;"	f	class:tcp_socket
+start_watch_connect	tcp_socket.h	/^	inline void start_watch_connect() { if (!_oev_connnect_started) { ev_io_start(_loop, &_oev_connnect); _oev_connnect_started = true; } }$/;"	f	class:tcp_socket
+start_watch_read	tcp_socket.h	/^	inline void start_watch_read() { if (!_iev_read_started) { ev_io_start(_loop, &_iev_read); _iev_read_started = true; } }$/;"	f	class:tcp_socket
+start_watch_write	tcp_socket.h	/^	inline void start_watch_write() { if (!_oev_write_started) { ev_io_start(_loop, &_oev_write); _oev_write_started = true; } }$/;"	f	class:tcp_socket
+stop_inner_timer	tcp_socket.cpp	/^void	tcp_socket::stop_inner_timer(uint16_t timer_id)$/;"	f	class:tcp_socket
+stop_timer	tcp_client.cpp	/^void	tcp_client::stop_timer(uint16_t timer_id)$/;"	f	class:tcp_client
+stop_timer	tcp_server.cpp	/^void	tcp_server::stop_timer(uint16_t timer_id)$/;"	f	class:tcp_server
+stop_watch_accept	tcp_socket.h	/^	inline void stop_watch_accept() { if (_iev_accept_started) { ev_io_stop(_loop, &_iev_accept); _iev_accept_started = false; } }$/;"	f	class:tcp_socket
+stop_watch_connect	tcp_socket.h	/^	inline void stop_watch_connect() { if (_oev_connnect_started) { ev_io_stop(_loop, &_oev_connnect); _oev_connnect_started = false; } }$/;"	f	class:tcp_socket
+stop_watch_read	tcp_socket.h	/^	inline void stop_watch_read() { if (_iev_read_started) { ev_io_stop(_loop, &_iev_read); _iev_read_started = false; } }$/;"	f	class:tcp_socket
+stop_watch_write	tcp_socket.h	/^	inline void stop_watch_write() { if (_oev_write_started) { ev_io_stop(_loop, &_oev_write); _oev_write_started = false; } }$/;"	f	class:tcp_socket
+tcp_channel_desc	client_mng.h	/^	struct tcp_channel_desc $/;"	s	class:client_mng
+tcp_channel_desc	service_mng.h	/^	struct tcp_channel_desc$/;"	s	class:service_mng
+tcp_client	tcp_client.cpp	/^tcp_client::tcp_client()$/;"	f	class:tcp_client
+tcp_client	tcp_client.h	/^class tcp_client : public tcp_socket, public Net::tcp_client_channel$/;"	c
+tcp_listen	tcp_listen.cpp	/^tcp_listen::tcp_listen()$/;"	f	class:tcp_listen
+tcp_listen	tcp_listen.h	/^class tcp_listen : public tcp_socket$/;"	c
+tcp_listen_ptr	service_mng.h	/^		tcp_listen*						tcp_listen_ptr;$/;"	m	struct:service_mng::tcp_channel_desc
+tcp_server	tcp_server.cpp	/^tcp_server::tcp_server()$/;"	f	class:tcp_server
+tcp_server	tcp_server.h	/^class tcp_server : public tcp_socket, public Net::tcp_server_channel$/;"	c
+tcp_sock_on_accept	tcp_socket.cpp	/^static void tcp_sock_on_accept(struct ev_loop *, ev_io *watcher, int events)$/;"	f	file:
+tcp_sock_on_connect	tcp_socket.cpp	/^static void tcp_sock_on_connect(struct ev_loop *, ev_io *watcher, int events)$/;"	f	file:
+tcp_sock_on_read	tcp_socket.cpp	/^static void tcp_sock_on_read(struct ev_loop *, ev_io *watcher, int events)$/;"	f	file:
+tcp_sock_on_write	tcp_socket.cpp	/^static void tcp_sock_on_write(struct ev_loop *, ev_io *watcher, int events)$/;"	f	file:
+tcp_socket	tcp_socket.cpp	/^tcp_socket::tcp_socket()$/;"	f	class:tcp_socket
+tcp_socket	tcp_socket.h	/^class tcp_socket$/;"	c
+thread_map	net.cpp	/^static map<struct ev_loop*, ev_thread>	thread_map;$/;"	v	file:
+timer_check_expired	service_mng.h	/^		timer*							timer_check_expired;$/;"	m	struct:service_mng::tcp_channel_desc
+try_connect	tcp_client.cpp	/^bool tcp_client::try_connect()$/;"	f	class:tcp_client
+try_send	tcp_client.cpp	/^bool tcp_client::try_send(const uint8_t *pkg, const uint32_t len)$/;"	f	class:tcp_client
+try_send	tcp_server.cpp	/^bool tcp_server::try_send(const uint8_t *pkg, const uint32_t len)$/;"	f	class:tcp_server
+update_expired	service_mng.cpp	/^void	service_mng::update_expired(uint64_t id)$/;"	f	class:service_mng
+~client_mng	client_mng.cpp	/^client_mng::~client_mng()$/;"	f	class:client_mng
+~service_mng	service_mng.cpp	/^service_mng::~service_mng()$/;"	f	class:service_mng
+~tcp_client	tcp_client.cpp	/^tcp_client::~tcp_client()$/;"	f	class:tcp_client
+~tcp_listen	tcp_listen.cpp	/^tcp_listen::~tcp_listen()$/;"	f	class:tcp_listen
+~tcp_server	tcp_server.cpp	/^tcp_server::~tcp_server()$/;"	f	class:tcp_server
+~tcp_socket	tcp_socket.cpp	/^tcp_socket::~tcp_socket()$/;"	f	class:tcp_socket

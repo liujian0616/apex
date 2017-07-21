@@ -1,0 +1,448 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AADD	time_func.c	27;"	d	file:
+AES_FROUND	crypt_aes.cpp	590;"	d	file:
+AES_RROUND	crypt_aes.cpp	680;"	d	file:
+AES_dec_test	crypt_aes.cpp	/^static unsigned char AES_dec_test[3][16] =$/;"	m	namespace:CRYPT_AES	file:
+AES_enc_test	crypt_aes.cpp	/^static unsigned char AES_enc_test[3][16] =$/;"	m	namespace:CRYPT_AES	file:
+ASUFFIX	time_func.c	21;"	d	file:
+ASUFFIX	time_func.c	23;"	d	file:
+ATTR_REPORT_H	attr_report.h	6;"	d
+AUTO_MUTEX_H_	auto_mutex.h	2;"	d
+AppendU16Str	host_codec.cpp	/^bool AppendU16Str(host_codec& os, const char* pszText, uint16_t u16Len\/* = (uint16_t)-1*\/)$/;"	f
+AppendU8Str	host_codec.cpp	/^bool AppendU8Str(host_codec& os, const char* pszText, uint8_t u8Len\/* = (uint8_t)-1*\/)$/;"	f
+BASE_TYPE_H_	base_type.h	2;"	d
+BOOL	mmap_queue.h	22;"	d
+CAS	time_func.c	28;"	d	file:
+CAS32	mmap_queue.c	34;"	d	file:
+CMD_INNER_CHANNEL_HELLO	proto_header.h	/^	CMD_INNER_CHANNEL_HELLO = 1,$/;"	e	enum:__anon1
+CMD_INNER_CHANNEL_LOGIN	proto_header.h	/^	CMD_INNER_CHANNEL_LOGIN = 2,$/;"	e	enum:__anon1
+COMMAND	proto_header.h	/^}COMMAND;$/;"	t	typeref:enum:__anon1
+CONF_FILE_H_	conf_file.h	2;"	d
+CPU_SPEED_GB	time_func.c	33;"	d	file:
+CRYPT_AES	crypt_aes.cpp	/^namespace CRYPT_AES$/;"	n	file:
+CRYPT_AES	crypt_aes.h	/^namespace CRYPT_AES$/;"	n
+CRYPT_AES_H_	crypt_aes.h	32;"	d
+CRYPT_ECIES	crypt_ecies.cpp	/^namespace CRYPT_ECIES$/;"	n	file:
+CRYPT_ECIES	crypt_ecies.h	/^namespace CRYPT_ECIES$/;"	n
+CRYPT_ECIES_H	crypt_ecies.h	2;"	d
+CheckText	report_helper.c	/^int CheckText(const char* Name, size_t limit_len)$/;"	f
+ClientHeader	proto_header.h	/^}ClientHeader;$/;"	t	typeref:struct:__anon2
+Config	conf_file.cpp	/^namespace Config $/;"	n	file:
+Config	conf_file.h	/^namespace Config$/;"	n
+DEFAULT_FILE_NUM	duplet_log.h	/^	const uint8_t	DEFAULT_FILE_NUM			=	5;	$/;"	m	namespace:Log
+DEFAULT_LIMITLENGTH_PERFILE	duplet_log.h	/^	const uint32_t	DEFAULT_LIMITLENGTH_PERFILE	=	50 * 1024 * 1024;$/;"	m	namespace:Log
+DLOG_ERROR	duplet_log.h	145;"	d
+DLOG_FATAL	duplet_log.h	151;"	d
+DLOG_INFO	duplet_log.h	133;"	d
+DLOG_TRACE	duplet_log.h	127;"	d
+DLOG_WARN	duplet_log.h	139;"	d
+DUPLET_LOG_H	duplet_log.h	11;"	d
+Decrypt	crypt_ecies.cpp	/^std::string Decrypt(const std::string &strPri, const std::string &strSeed, const string &strCipherText)$/;"	f	namespace:CRYPT_ECIES
+Duplet	duplet_log.h	/^	namespace Duplet$/;"	n	namespace:Log
+Encrypt	crypt_ecies.cpp	/^std::string Encrypt(const std::string &strPub, const std::string &strSeed, const string &strPlainText)$/;"	f	namespace:CRYPT_ECIES
+FILE_FUNC_H_	file_func.h	2;"	d
+FSb	crypt_aes.cpp	/^uint32_t FSb[256];$/;"	m	namespace:CRYPT_AES	file:
+FT0	crypt_aes.cpp	/^uint32_t FT0[256];$/;"	m	namespace:CRYPT_AES	file:
+FT1	crypt_aes.cpp	/^uint32_t FT1[256];$/;"	m	namespace:CRYPT_AES	file:
+FT2	crypt_aes.cpp	/^uint32_t FT2[256];$/;"	m	namespace:CRYPT_AES	file:
+FT3	crypt_aes.cpp	/^uint32_t FT3[256];$/;"	m	namespace:CRYPT_AES	file:
+Frequent_Attr_API	time_func.c	160;"	d	file:
+Frequent_Attr_API_Ext	time_func.c	144;"	d	file:
+GET_uint32_t	crypt_aes.cpp	401;"	d	file:
+GenerateKey	crypt_ecies.cpp	/^int GenerateKey(const std::string &strSeed, std::string &strPri, std::string &strPub)$/;"	f	namespace:CRYPT_ECIES
+HOST_CODEC_H	host_codec.h	2;"	d
+INT32_MAX	base_type.h	17;"	d
+INVALID_SOCKET	base_type.h	21;"	d
+InnerHeader	proto_header.h	/^}InnerHeader;$/;"	t	typeref:struct:__anon3
+InnerLog	duplet_log.c	/^static int InnerLog(LOG_TYPE eLogType, Log::LOG_LEVEL eLogLevel, const char* pszKeyword, const char* pszFormat, va_list va)$/;"	f	file:
+Inner_Init	attr_report.c	/^static bool Inner_Init()$/;"	f	file:
+Inner_Init	duplet_log.c	/^static bool Inner_Init()$/;"	f	file:
+KEY_VALUE	conf_file.h	/^		typedef map< std::string, std::string > KEY_VALUE;$/;"	t	class:Config::section
+KT0	crypt_aes.cpp	/^uint32_t KT0[256];$/;"	m	namespace:CRYPT_AES	file:
+KT1	crypt_aes.cpp	/^uint32_t KT1[256];$/;"	m	namespace:CRYPT_AES	file:
+KT2	crypt_aes.cpp	/^uint32_t KT2[256];$/;"	m	namespace:CRYPT_AES	file:
+KT3	crypt_aes.cpp	/^uint32_t KT3[256];$/;"	m	namespace:CRYPT_AES	file:
+KT_init	crypt_aes.cpp	/^int KT_init = 1;$/;"	m	namespace:CRYPT_AES	file:
+LLOG_ERROR	duplet_log.h	83;"	d
+LLOG_FATAL	duplet_log.h	89;"	d
+LLOG_INFO	duplet_log.h	71;"	d
+LLOG_TRACE	duplet_log.h	65;"	d
+LLOG_WARN	duplet_log.h	77;"	d
+LL_ERROR	duplet_log.h	/^		LL_ERROR = 4,$/;"	e	enum:Log::LOG_LEVEL
+LL_FATAL	duplet_log.h	/^		LL_FATAL = 5,$/;"	e	enum:Log::LOG_LEVEL
+LL_INFO	duplet_log.h	/^		LL_INFO = 2,$/;"	e	enum:Log::LOG_LEVEL
+LL_NONE	duplet_log.h	/^		LL_NONE = 0,$/;"	e	enum:Log::LOG_LEVEL
+LL_TRACE	duplet_log.h	/^		LL_TRACE = 1,$/;"	e	enum:Log::LOG_LEVEL
+LL_WARN	duplet_log.h	/^		LL_WARN = 3,$/;"	e	enum:Log::LOG_LEVEL
+LOG_HELPER_H	log_helper.h	2;"	d
+LOG_LEVEL	duplet_log.h	/^	enum LOG_LEVEL$/;"	g	namespace:Log
+LOG_MMAP_FILE	log_helper.h	5;"	d
+LOG_TYPE	log_helper.h	/^enum LOG_TYPE$/;"	g
+LT_DUPLET	log_helper.h	/^	LT_DUPLET = 3,$/;"	e	enum:LOG_TYPE
+LT_LOCAL	log_helper.h	/^	LT_LOCAL = 1,$/;"	e	enum:LOG_TYPE
+LT_NONE	log_helper.h	/^	LT_NONE = 0,$/;"	e	enum:LOG_TYPE
+LT_REMOTE	log_helper.h	/^	LT_REMOTE = 2,$/;"	e	enum:LOG_TYPE
+LoadPrivateKeyFromFile	crypt_ecies.cpp	/^void LoadPrivateKeyFromFile(PrivateKey& key, const string& file)$/;"	f	namespace:CRYPT_ECIES
+LoadPrivateKeyFromString	crypt_ecies.cpp	/^void LoadPrivateKeyFromString(PrivateKey& key, const string& str)$/;"	f	namespace:CRYPT_ECIES
+LoadPublicKeyFromFile	crypt_ecies.cpp	/^void LoadPublicKeyFromFile(PublicKey& key, const string& file)$/;"	f	namespace:CRYPT_ECIES
+LoadPublicKeyFromString	crypt_ecies.cpp	/^void LoadPublicKeyFromString(PublicKey& key, const string& str)$/;"	f	namespace:CRYPT_ECIES
+Local	duplet_log.h	/^	namespace Local$/;"	n	namespace:Log
+Log	duplet_log.h	/^namespace Log$/;"	n
+MAX_CLIENT_HEADER_LEN	proto_header.h	42;"	d
+MAX_INNER_HEADER_LEN	proto_header.h	43;"	d
+MAX_KEYWORD_LEN	duplet_log.h	/^	const uint8_t	MAX_KEYWORD_LEN				=	128;$/;"	m	namespace:Log
+MAX_PATH	duplet_log.c	16;"	d	file:
+MAX_SQ_DATA_LENGTH	mmap_queue.h	43;"	d
+MAX_TEXT_INPUTLEN	attr_report.h	/^	const uint16_t MAX_TEXT_INPUTLEN = 56;\/\/for Server,Name,Text$/;"	m	namespace:Report
+MAX_TEXT_LEN	duplet_log.h	/^	const uint16_t	MAX_TEXT_LEN				=	1024;$/;"	m	namespace:Log
+MAX_TEXT_LIMITLEN	attr_report.c	12;"	d	file:
+MISC_FUNC_H_	misc_func.h	2;"	d
+MUL	crypt_aes.cpp	55;"	d	file:
+MakeFullPath	duplet_log.c	/^static bool MakeFullPath()$/;"	f	file:
+NULL	mmap_queue.h	26;"	d
+PERIOD_TIMER_H_	period_timer.h	2;"	d
+PROTO_HEADER_H	proto_header.h	2;"	d
+PUT_uint32_t	crypt_aes.cpp	409;"	d	file:
+PrintPrivateKey	crypt_ecies.cpp	/^void PrintPrivateKey(const DL_PrivateKey_EC<ECP>& key, ostream& out)$/;"	f	namespace:CRYPT_ECIES
+PrintPublicKey	crypt_ecies.cpp	/^void PrintPublicKey(const DL_PublicKey_EC<ECP>& key, ostream& out)$/;"	f	namespace:CRYPT_ECIES
+RCON	crypt_aes.cpp	/^uint32_t RCON[10];$/;"	m	namespace:CRYPT_AES	file:
+RDTSC	time_func.c	14;"	d	file:
+RDTSC	time_func.c	16;"	d	file:
+REGET_TIME_US_GTOD	time_func.c	31;"	d	file:
+REGET_TIME_US_TIME	time_func.c	32;"	d	file:
+REPORT_HELPER_H	report_helper.h	2;"	d
+REPORT_MMAP_FILE	report_helper.h	8;"	d
+RESERVE_BLOCK_COUNT	mmap_queue.h	48;"	d
+RLOG_ERROR	duplet_log.h	114;"	d
+RLOG_FATAL	duplet_log.h	120;"	d
+RLOG_INFO	duplet_log.h	102;"	d
+RLOG_TRACE	duplet_log.h	96;"	d
+RLOG_WARN	duplet_log.h	108;"	d
+ROTR8	crypt_aes.cpp	51;"	d	file:
+RSb	crypt_aes.cpp	/^uint32_t RSb[256];$/;"	m	namespace:CRYPT_AES	file:
+RT0	crypt_aes.cpp	/^uint32_t RT0[256];$/;"	m	namespace:CRYPT_AES	file:
+RT1	crypt_aes.cpp	/^uint32_t RT1[256];$/;"	m	namespace:CRYPT_AES	file:
+RT2	crypt_aes.cpp	/^uint32_t RT2[256];$/;"	m	namespace:CRYPT_AES	file:
+RT3	crypt_aes.cpp	/^uint32_t RT3[256];$/;"	m	namespace:CRYPT_AES	file:
+ReadU16Str	host_codec.cpp	/^bool ReadU16Str(host_codec& is, std::string& str)$/;"	f
+ReadU8Str	host_codec.cpp	/^bool ReadU8Str(host_codec& is, std::string& str)$/;"	f
+Remote	duplet_log.h	/^	namespace Remote$/;"	n	namespace:Log
+Report	attr_report.h	/^namespace Report$/;"	n
+SINGLETON_H_	singleton.h	9;"	d
+SOCKET	base_type.h	/^typedef int SOCKET;$/;"	t
+SOCKET_ERROR	base_type.h	22;"	d
+SOCKET_FAIL	socket_func.h	24;"	d
+SOCKET_FUNC_H_	socket_func.h	2;"	d
+SOCKET_RESULT	socket_func.h	/^typedef int SOCKET_RESULT;$/;"	t
+SOCKET_SUCCESS	socket_func.h	23;"	d
+SQ_ADD_HEAD	mmap_queue.c	46;"	d	file:
+SQ_ADD_POS	mmap_queue.c	53;"	d	file:
+SQ_ADD_TAIL	mmap_queue.c	47;"	d	file:
+SQ_EMPTY_NODES	mmap_queue.c	58;"	d	file:
+SQ_EMPTY_NODES2	mmap_queue.c	61;"	d	file:
+SQ_FOR_TEST	mmap_queue.h	31;"	d
+SQ_GET	mmap_queue.c	69;"	d	file:
+SQ_IS_QUEUE_EMPTY	mmap_queue.c	56;"	d	file:
+SQ_IS_QUEUE_FULL	mmap_queue.c	55;"	d	file:
+SQ_LOCK_FILE	mmap_queue.c	196;"	d	file:
+SQ_MAX_CONFLICT_TRIES	mmap_queue.c	32;"	d	file:
+SQ_NEXT_HEAD	mmap_queue.c	50;"	d	file:
+SQ_NEXT_TAIL	mmap_queue.c	51;"	d	file:
+SQ_NODE_SIZE	mmap_queue.c	66;"	d	file:
+SQ_NODE_SIZE_ELEMENT	mmap_queue.c	65;"	d	file:
+SQ_NUM_NEEDED_NODES	mmap_queue.c	72;"	d	file:
+SQ_USED_NODES	mmap_queue.c	59;"	d	file:
+SQ_USED_NODES2	mmap_queue.c	62;"	d	file:
+STRING_FUNC_H	string_func.h	2;"	d
+ST_FIRST	attr_report.h	/^		ST_FIRST = 3,$/;"	e	enum:Report::SetType
+ST_LAST	attr_report.h	/^		ST_LAST = 4,$/;"	e	enum:Report::SetType
+ST_MAX	attr_report.h	/^		ST_MAX = 2,$/;"	e	enum:Report::SetType
+ST_MIN	attr_report.h	/^		ST_MIN = 1,$/;"	e	enum:Report::SetType
+ST_NONE	attr_report.h	/^		ST_NONE = 0,$/;"	e	enum:Report::SetType
+SavePrivateKeyInFile	crypt_ecies.cpp	/^void SavePrivateKeyInFile(const PrivateKey& key, const string& file)$/;"	f	namespace:CRYPT_ECIES
+SavePrivateKeyInString	crypt_ecies.cpp	/^void SavePrivateKeyInString(const PrivateKey& key, string& str)$/;"	f	namespace:CRYPT_ECIES
+SavePublicKeyInFile	crypt_ecies.cpp	/^void SavePublicKeyInFile(const PublicKey& key, const string& file)$/;"	f	namespace:CRYPT_ECIES
+SavePublicKeyInString	crypt_ecies.cpp	/^void SavePublicKeyInString(const PublicKey& key, string& str)$/;"	f	namespace:CRYPT_ECIES
+SerializeBasic	attr_report.c	/^static bool SerializeBasic(host_codec& os, const uint8_t u8Type, const char* pszServer, const char* pszName)$/;"	f	file:
+SetType	attr_report.h	/^	enum SetType $/;"	g	namespace:Report
+TIME_FUNC_H	time_func.h	4;"	d
+TOKEN_HAS_DATA	mmap_queue.c	30;"	d	file:
+TOKEN_NO_DATA	mmap_queue.c	28;"	d	file:
+TOKEN_SKIPPED	mmap_queue.c	29;"	d	file:
+Time	time_func.h	/^namespace Time$/;"	n
+UINT32_MAX	base_type.h	13;"	d
+UTF8_LENGTH_1	report_helper.c	4;"	d	file:
+UTF8_LENGTH_2	report_helper.c	6;"	d	file:
+UTF8_LENGTH_3	report_helper.c	7;"	d	file:
+UTF8_LENGTH_4	report_helper.c	8;"	d	file:
+UTF8_LENGTH_ERROR	report_helper.c	5;"	d	file:
+UTF8_SUCCEED_CHAR	report_helper.c	10;"	d	file:
+XCHG	time_func.c	26;"	d	file:
+XTIME	crypt_aes.cpp	54;"	d	file:
+_FILE_OFFSET_BITS	base_type.h	6;"	d
+_FILE_OFFSET_BITS	base_type.h	7;"	d
+_LARGEFILE64_SOURCE	base_type.h	4;"	d
+_LARGEFILE64_SOURCE	base_type.h	5;"	d
+__MMAP_QUEUE_HEADER__	mmap_queue.h	17;"	d
+__STDC_LIMIT_MACROS	auto_mutex.h	4;"	d
+__STDC_LIMIT_MACROS	conf_file.h	4;"	d
+_active	period_timer.h	/^	bool _active;$/;"	m	class:timer
+_arg	period_timer.h	/^	void* _arg;$/;"	m	class:timer
+_cb	period_timer.h	/^	}_cb;$/;"	m	class:timer	typeref:union:timer::__anon4
+_loop	period_timer.h	/^	struct ev_loop* _loop;$/;"	m	class:timer	typeref:struct:timer::ev_loop
+_obj	period_timer.h	/^	blank_class* _obj;$/;"	m	class:timer
+_repeat	period_timer.h	/^	bool _repeat;$/;"	m	class:timer
+_timer	period_timer.h	/^	struct ev_timer _timer;$/;"	m	class:timer	typeref:struct:timer::ev_timer
+accept_sock	socket_func.h	/^inline SOCKET accept_sock(SOCKET fd, struct sockaddr_in* addr)$/;"	f
+aes_context	crypt_aes.h	/^aes_context;$/;"	t	namespace:CRYPT_AES	typeref:struct:CRYPT_AES::__anon5
+aes_decrypt	crypt_aes.cpp	/^void aes_decrypt( aes_context *ctx, uint8_t input[16], uint8_t output[16] )$/;"	f	namespace:CRYPT_AES
+aes_decrypt_cbc	crypt_aes.cpp	/^int aes_decrypt_cbc(uint8_t *key, int nbits, uint8_t* input, uint32_t input_len, uint8_t* output, uint32_t output_len)$/;"	f	namespace:CRYPT_AES
+aes_decrypt_ecb	crypt_aes.cpp	/^int aes_decrypt_ecb(uint8_t *key, int nbits, uint8_t* input, uint32_t input_len, uint8_t* output, uint32_t output_len)$/;"	f	namespace:CRYPT_AES
+aes_encrypt	crypt_aes.cpp	/^void aes_encrypt( aes_context *ctx, uint8_t input[16], uint8_t output[16] )$/;"	f	namespace:CRYPT_AES
+aes_encrypt_cbc	crypt_aes.cpp	/^int aes_encrypt_cbc(uint8_t *key, int nbits, uint8_t* input, uint32_t input_len, uint8_t* output, uint32_t output_len)$/;"	f	namespace:CRYPT_AES
+aes_encrypt_ecb	crypt_aes.cpp	/^int aes_encrypt_ecb(uint8_t *key, int nbits, uint8_t* input, uint32_t input_len, uint8_t* output, uint32_t output_len)$/;"	f	namespace:CRYPT_AES
+aes_gen_tables	crypt_aes.cpp	/^void aes_gen_tables( void )$/;"	f	namespace:CRYPT_AES
+aes_set_key	crypt_aes.cpp	/^int aes_set_key( aes_context *ctx, uint8_t *key, int nbits )$/;"	f	namespace:CRYPT_AES
+alarm	attr_report.c	/^int Report::alarm(const char* pszServer, const char* pszName, const char* pszText)$/;"	f	class:Report
+auto_mutex	auto_mutex.cpp	/^auto_mutex::auto_mutex(pthread_mutex_t* mutex)$/;"	f	class:auto_mutex
+auto_mutex	auto_mutex.h	/^class auto_mutex$/;"	c
+available	host_codec.h	/^	inline uint32_t available() const { return m_length - m_read; }$/;"	f	class:host_codec
+bind_sock	socket_func.h	/^inline SOCKET_RESULT bind_sock(SOCKET fd, struct sockaddr_in* addr)$/;"	f
+blank_class	period_timer.h	/^	class blank_class$/;"	c	class:timer
+bodylen	proto_header.h	/^	uint16_t 	bodylen;		\/\/包体的长度$/;"	m	struct:__anon2
+bodylen	proto_header.h	/^	uint16_t bodylen;			\/\/包体的长度$/;"	m	struct:__anon3
+buf_hash_sdbm	misc_func.c	/^unsigned int buf_hash_sdbm(const unsigned char *str, int len)$/;"	f
+buff_hash_djb2	misc_func.c	/^unsigned int buff_hash_djb2(const unsigned char *str, int len)$/;"	f
+clientver	proto_header.h	/^	uint32_t 	clientver;		\/\/版本$/;"	m	struct:__anon2
+clientver	proto_header.h	/^	uint32_t clientver;			\/\/版本$/;"	m	struct:__anon3
+close_sock	socket_func.h	/^inline SOCKET_RESULT close_sock(SOCKET s)$/;"	f
+cmd	proto_header.h	/^	uint16_t  	cmd;			\/\/命令字$/;"	m	struct:__anon2
+cmd	proto_header.h	/^	uint16_t cmd;				\/\/命令字$/;"	m	struct:__anon3
+connect_sock	socket_func.h	/^inline SOCKET_RESULT connect_sock(SOCKET fd, struct sockaddr_in* addr)$/;"	f
+connip	proto_header.h	/^	uint32_t connip;			\/\/接入层地址$/;"	m	struct:__anon3
+connport	proto_header.h	/^	uint16_t connport;			\/\/接入层端口$/;"	m	struct:__anon3
+crc16	misc_func.c	/^uint16_t crc16(uint16_t* buf, int nwords)$/;"	f
+create_artery_listen_sock	socket_func.cpp	/^SOCKET create_artery_listen_sock(int non_block, int no_delay, int reuse_addr, int defer_accept)$/;"	f
+create_tcp_sock	socket_func.h	/^inline SOCKET create_tcp_sock()$/;"	f
+create_udp_sock	socket_func.h	/^inline SOCKET create_udp_sock()$/;"	f
+daemon_proc	misc_func.c	/^void daemon_proc()$/;"	f
+data	host_codec.h	/^	inline uint8_t* data() const { return m_data; }$/;"	f	class:host_codec
+data	mmap_queue.h	/^	unsigned char data[0];$/;"	m	struct:mq_node_head_t
+datalen	mmap_queue.h	/^	u32_t datalen; \/\/ length of stored data in this node$/;"	m	struct:mq_node_head_t
+dir_ensurance	file_func.c	/^int dir_ensurance(const char* dir_name)$/;"	f
+dir_ensurance_inner	file_func.c	/^static int dir_ensurance_inner(const char* dir_name, unsigned int total_length, unsigned int offset)$/;"	f	file:
+do_init	crypt_aes.cpp	/^int do_init = 1;$/;"	m	namespace:CRYPT_AES	file:
+drk	crypt_aes.h	/^    uint32_t drk[64];     \/* decryption round keys *\/$/;"	m	struct:CRYPT_AES::__anon5
+ele_count	mmap_queue.h	/^	int ele_count;$/;"	m	struct:mq_head_t
+ele_size	mmap_queue.h	/^	int ele_size;$/;"	m	struct:mq_head_t
+enqueue_time	mmap_queue.h	/^	struct timeval32 enqueue_time;$/;"	m	struct:mq_node_head_t	typeref:struct:mq_node_head_t::timeval32
+erk	crypt_aes.h	/^    uint32_t erk[64];     \/* encryption round keys *\/$/;"	m	struct:CRYPT_AES::__anon5
+errmsg	mmap_queue.c	/^static char errmsg[256];$/;"	v	file:
+errmsg	mmap_queue.h	/^	char errmsg[256];$/;"	m	struct:mmap_queue
+error	duplet_log.c	/^int Log::Duplet::error(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Duplet
+error	duplet_log.c	/^int Log::Local::error(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Local
+error	duplet_log.c	/^int Log::Remote::error(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Remote
+exc_lock	mmap_queue.c	/^static int exc_lock(int iUnlocking, int *fd, const char* mmap_file)$/;"	f	file:
+fatal	duplet_log.c	/^int Log::Duplet::fatal(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Duplet
+fatal	duplet_log.c	/^int Log::Local::fatal(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Local
+fatal	duplet_log.c	/^int Log::Remote::fatal(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Remote
+file_length	mmap_queue.c	/^inline off_t file_length(const char* szFile)$/;"	f
+file_size	mmap_queue.h	/^	int file_size;$/;"	m	struct:mq_head_t
+flags	proto_header.h	/^	uint32_t flags;				\/\/染色，新格式包，加密等标记$/;"	m	struct:__anon3
+get	conf_file.h	/^		T& get(const std::string& name, T& value, const std::string& def = "")$/;"	f	class:Config::section
+get_arg	period_timer.h	/^	inline void* get_arg(){ return _arg; }$/;"	f	class:timer
+get_file_size	file_func.c	/^int64_t get_file_size(const char* file_name)$/;"	f
+get_file_size	file_func.c	/^int64_t get_file_size(int fd)$/;"	f
+get_host_by_name	socket_func.cpp	/^uint32_t get_host_by_name(const char* name)$/;"	f
+get_instance_via_data	period_timer.cpp	/^timer* timer::get_instance_via_data(ev_timer* ev)$/;"	f	class:timer
+get_local_sock_addr	socket_func.h	/^inline SOCKET_RESULT get_local_sock_addr(SOCKET fd, struct sockaddr_in* addr)$/;"	f
+get_machine_ip_list	socket_func.cpp	/^int32_t get_machine_ip_list(uint32_t* ip_list, uint32_t max_count)$/;"	f
+get_name	conf_file.cpp	/^	string section::get_name()$/;"	f	class:Config::section
+get_peer_sock_addr	socket_func.h	/^inline SOCKET_RESULT get_peer_sock_addr(SOCKET fd, struct sockaddr_in* addr)$/;"	f
+get_recv_buflen_sock	socket_func.h	/^inline SOCKET_RESULT get_recv_buflen_sock(SOCKET fd, int *buf)$/;"	f
+get_send_buflen_sock	socket_func.h	/^inline SOCKET_RESULT get_send_buflen_sock(SOCKET fd, int *buf)$/;"	f
+get_str	conf_file.cpp	/^	string get_str(const string file_path, const string section_name, const string field_name)$/;"	f	namespace:Config
+good	host_codec.h	/^	inline bool good() const { return m_good; }$/;"	f	class:host_codec
+head	mmap_queue.h	/^	struct mq_head_t *head;$/;"	m	struct:mmap_queue	typeref:struct:mmap_queue::mq_head_t
+head_pos	mmap_queue.h	/^	volatile int head_pos; \/\/ head position in the queue, pointer for reading$/;"	m	struct:mq_head_t
+host_codec	host_codec.h	/^	inline host_codec() :m_good(true), m_data(NULL), m_length(0), m_read(0), m_write(0) {}$/;"	f	class:host_codec
+host_codec	host_codec.h	/^	inline host_codec(const uint32_t length, T *data) : m_good(true), m_data((uint8_t*)(void*)data), m_length(length), m_read(0), m_write(0) {}$/;"	f	class:host_codec
+host_codec	host_codec.h	/^class host_codec$/;"	c
+iconv	misc_func.c	/^int iconv(char* to_str, size_t to_str_len, const char* to_code, const char* from_str, size_t from_str_len, const char* from_code)$/;"	f
+iconv_conv	misc_func.c	/^int iconv_conv(void* cd, char* to_str, size_t to_str_len, const char* from_str, size_t from_str_len)$/;"	f
+iconv_open	misc_func.c	/^void* iconv_open(const char* to_code, const char* from_code)$/;"	f
+ignore_sigpipe	misc_func.c	/^void ignore_sigpipe()$/;"	f
+inc	attr_report.c	/^int Report::inc(const char* pszServer, const char* pszName, uint32_t Value)$/;"	f	class:Report
+inc_once	attr_report.c	/^int Report::inc_once(const char* pszServer, const char* pszName)$/;"	f	class:Report
+info	duplet_log.c	/^int Log::Duplet::info(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Duplet
+info	duplet_log.c	/^int Log::Local::info(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Local
+info	duplet_log.c	/^int Log::Remote::info(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Remote
+inner_load	conf_file.cpp	/^	bool section::inner_load()$/;"	f	class:Config::section
+innert_set	period_timer.cpp	/^void timer::innert_set(blank_class* obj, void(timer::blank_class::*memfunc)(timer*), uint32_t ms, bool repeat, void* arg)$/;"	f	class:timer
+innert_set	period_timer.cpp	/^void timer::innert_set(void(*staticfunc)(timer*), uint32_t ms, bool repeat, void* arg)$/;"	f	class:timer
+instance	singleton.h	/^	static T& instance()$/;"	f	class:singleton
+iph_by_addr	socket_func.h	/^inline unsigned int iph_by_addr(const struct sockaddr_in* addr)$/;"	f
+ipn_by_addr	socket_func.h	/^inline unsigned int ipn_by_addr(const struct sockaddr_in* addr)$/;"	f
+ipn_by_string	socket_func.h	/^inline SOCKET_RESULT ipn_by_string(const char* cp, unsigned int *ip)$/;"	f
+is_active	period_timer.cpp	/^bool timer::is_active()$/;"	f	class:timer
+is_path_dir	file_func.c	/^int is_path_dir(const char* file_name)$/;"	f
+is_path_regular	file_func.c	/^int is_path_regular(const char* file_name)$/;"	f
+is_sock_connected	socket_func.h	/^inline SOCKET_RESULT is_sock_connected(SOCKET fd)$/;"	f
+lcid	proto_header.h	/^	uint32_t 	lcid;			\/\/区域$/;"	m	struct:__anon2
+lcid	proto_header.h	/^	uint32_t lcid;				\/\/区域$/;"	m	struct:__anon3
+length	host_codec.h	/^	inline uint32_t length() const { return m_length; }$/;"	f	class:host_codec
+listen_sock	socket_func.h	/^inline SOCKET_RESULT listen_sock(SOCKET fd, int backlog)$/;"	f
+load	conf_file.cpp	/^	void section::load(const string file_path, const string section)$/;"	f	class:Config::section
+lowstring	string_func.c	/^string lowstring(const string str)$/;"	f
+m	mmap_queue.c	/^static char m[1024*1024];$/;"	v	file:
+m_data	host_codec.h	/^	\/*volatile *\/uint8_t*	m_data;$/;"	m	class:host_codec
+m_file_path	conf_file.h	/^		string		m_file_path;$/;"	m	class:Config::section
+m_good	host_codec.h	/^	\/*volatile *\/bool	m_good;$/;"	m	class:host_codec
+m_length	host_codec.h	/^	\/*volatile *\/uint32_t	m_length;$/;"	m	class:host_codec
+m_mutex	auto_mutex.h	/^	pthread_mutex_t* m_mutex;$/;"	m	class:auto_mutex
+m_pInstance	singleton.h	/^	static T* m_pInstance;$/;"	m	class:singleton
+m_pInstance	singleton.h	/^T*	singleton<T>::m_pInstance = NULL;$/;"	m	class:singleton
+m_read	host_codec.h	/^	\/*volatile *\/uint32_t	m_read;$/;"	m	class:host_codec
+m_section	conf_file.h	/^		string		m_section;$/;"	m	class:Config::section
+m_value	conf_file.h	/^		KEY_VALUE m_value;$/;"	m	class:Config::section
+m_write	host_codec.h	/^	\/*volatile *\/uint32_t	m_write;$/;"	m	class:host_codec
+main	crypt_aes.cpp	/^int main( void )$/;"	f	namespace:CRYPT_AES
+main	mmap_queue.c	/^int main(int argc, char *argv[])$/;"	f
+main	time_func.c	/^int main(int argc, char *argv[])$/;"	f
+member_offsetof	base_type.h	25;"	d
+memfunc	period_timer.h	/^		void(blank_class::*memfunc)(timer*);$/;"	m	union:timer::__anon4
+mmap_queue	mmap_queue.h	/^struct mmap_queue$/;"	s
+mq_create	mmap_queue.c	/^struct mmap_queue *mq_create(const char* mmap_file, int ele_size, int ele_count)$/;"	f
+mq_destroy	mmap_queue.c	/^void mq_destroy(struct mmap_queue *queue)$/;"	f
+mq_errorstr	mmap_queue.c	/^const char *mq_errorstr(struct mmap_queue *mq)$/;"	f
+mq_get	mmap_queue.c	/^int mq_get(struct mmap_queue *mq, void *buf, int buf_sz, struct timeval *enqueue_time)$/;"	f
+mq_get_usage	mmap_queue.c	/^int mq_get_usage(struct mmap_queue *mq)$/;"	f
+mq_get_used_blocks	mmap_queue.c	/^int mq_get_used_blocks(struct mmap_queue *mq)$/;"	f
+mq_head_t	mmap_queue.h	/^struct mq_head_t$/;"	s
+mq_node_head_t	mmap_queue.h	/^struct mq_node_head_t$/;"	s
+mq_open	mmap_queue.c	/^struct mmap_queue *mq_open(const char* mmap_file)$/;"	f
+mq_put	mmap_queue.c	/^int mq_put(struct mmap_queue *mq, void *data, int datalen)$/;"	f
+nodes	mmap_queue.h	/^	struct mq_node_head_t nodes[0];$/;"	m	struct:mq_head_t	typeref:struct:mq_head_t::mq_node_head_t
+nr	crypt_aes.h	/^    int nr;             \/* number of rounds *\/$/;"	m	struct:CRYPT_AES::__anon5
+on_timer	period_timer.cpp	/^void timer::on_timer()$/;"	f	class:timer
+open_mmap	mmap_queue.c	/^static char *open_mmap(const char* mmap_file, size_t length, int *bCreate)$/;"	f	file:
+open_mmap_queue	mmap_queue.c	/^static struct mq_head_t *open_mmap_queue(const char* mmap_file, long ele_size, long ele_count, int create)$/;"	f	file:
+operator <<	host_codec.h	/^	host_codec& operator << (const T& t)$/;"	f	class:host_codec
+operator >>	host_codec.h	/^	host_codec& operator >> (T& t)$/;"	f	class:host_codec
+operator bool	host_codec.h	/^	inline operator bool() const { return m_good; }$/;"	f	class:host_codec
+porth_by_addr	socket_func.h	/^inline unsigned short porth_by_addr(const struct sockaddr_in* addr)$/;"	f
+portn_by_addr	socket_func.h	/^inline unsigned short portn_by_addr(const struct sockaddr_in* addr)$/;"	f
+press_test	mmap_queue.c	/^void press_test(struct mmap_queue *queue, uint32_t record_count, uint32_t record_size)$/;"	f
+print_dump	misc_func.c	/^void print_dump(const void* mem, unsigned int len)$/;"	f
+protover	proto_header.h	/^	uint16_t 	protover;		\/\/协议版本$/;"	m	struct:__anon2
+protover	proto_header.h	/^	uint16_t protover;			\/\/协议版本$/;"	m	struct:__anon3
+read	host_codec.cpp	/^host_codec& host_codec::read(uint32_t length, void* data)$/;"	f	class:host_codec
+read	host_codec.cpp	/^host_codec& host_codec::read(uint32_t step)$/;"	f	class:host_codec
+reopen_std_file	misc_func.c	/^int reopen_std_file()$/;"	f
+reserved	mmap_queue.h	/^	uint8_t reserved[1024*1024*4]; \/\/ 4MB of reserved space$/;"	m	struct:mq_head_t
+reset	host_codec.h	/^	inline void reset() { m_read = m_write = 0; m_good = true; }$/;"	f	class:host_codec
+reset	period_timer.cpp	/^void timer::reset()$/;"	f	class:timer
+retip	proto_header.h	/^	uint32_t retip;				\/\/接口层地址$/;"	m	struct:__anon3
+retport	proto_header.h	/^	uint16_t retport;			\/\/接口层端口$/;"	m	struct:__anon3
+rmb	mmap_queue.c	36;"	d	file:
+rpos	host_codec.h	/^	inline uint32_t rpos() { return m_read; }$/;"	f	class:host_codec
+rpos	host_codec.h	/^	inline void rpos(uint32_t p) { m_read = p; }$/;"	f	class:host_codec
+rw_conflict	mmap_queue.h	/^	int rw_conflict; \/\/ read-write conflict counter$/;"	m	struct:mmap_queue
+s_bDateCategory	duplet_log.c	/^static	bool				s_bDateCategory = true;$/;"	v	file:
+s_eLocalLowestLevel	duplet_log.c	/^static enum Log::LOG_LEVEL	s_eLocalLowestLevel = Log::LL_WARN;$/;"	v	typeref:enum:LOG_LEVEL	file:
+s_eRemoteLowestLevel	duplet_log.c	/^static enum Log::LOG_LEVEL	s_eRemoteLowestLevel = Log::LL_NONE;$/;"	v	typeref:enum:LOG_LEVEL	file:
+s_objInit	attr_report.c	/^static CInitFilePathWrapper	s_objInit;\/\/for call init$/;"	v	file:
+s_objInit	duplet_log.c	/^static CInitFilePathWrapper	s_objInit;\/\/for call init$/;"	v	file:
+s_queue	attr_report.c	/^static struct mmap_queue*	s_queue = NULL;$/;"	v	typeref:struct:mmap_queue	file:
+s_queue	duplet_log.c	/^static struct mmap_queue*	s_queue = NULL;$/;"	v	typeref:struct:mmap_queue	file:
+s_szDirName	duplet_log.c	/^static char					s_szDirName[MAX_PATH] = { 0 };$/;"	v	file:
+s_szFileName	duplet_log.c	/^static char					s_szFileName[MAX_PATH] = { 0 };$/;"	v	file:
+s_szFilePath	duplet_log.c	/^static char					s_szFilePath[MAX_PATH] = { 0 };\/\/ s_szFilePath = s_szDirName + s_szFileName$/;"	v	file:
+s_u16FilePathLen	duplet_log.c	/^static uint16_t				s_u16FilePathLen = 0;$/;"	v	file:
+s_u16ProcOrderNO	attr_report.c	/^static uint16_t				s_u16ProcOrderNO = -1;$/;"	v	file:
+s_u16ProcOrderNO	duplet_log.c	/^static uint16_t				s_u16ProcOrderNO = -1;$/;"	v	file:
+s_u32LimitLengthPerFile	duplet_log.c	/^static	uint32_t			s_u32LimitLengthPerFile = Log::DEFAULT_LIMITLENGTH_PERFILE;$/;"	v	file:
+s_u8FileCycleNum	duplet_log.c	/^static  uint8_t				s_u8FileCycleNum = Log::DEFAULT_FILE_NUM;$/;"	v	file:
+section	conf_file.cpp	/^	section::section()$/;"	f	class:Config::section
+section	conf_file.cpp	/^	section::section(const section& other)$/;"	f	class:Config::section
+section	conf_file.cpp	/^	section::section(const string file_path, const string section)$/;"	f	class:Config::section
+section	conf_file.h	/^	class section$/;"	c	namespace:Config
+seq	proto_header.h	/^	uint32_t 	seq;			\/\/序列号$/;"	m	struct:__anon2
+seq	proto_header.h	/^	uint32_t seq;				\/\/序列号$/;"	m	struct:__anon3
+set	attr_report.c	/^int Report::set(const char* pszServer, const char* pszName, SetType eType, uint32_t Value)$/;"	f	class:Report
+set	host_codec.h	/^	inline void set(uint32_t length, uint8_t *data){ m_data = data;	m_length = length; m_good = true; m_read = 0; m_write = 0; }$/;"	f	class:host_codec
+set	period_timer.h	/^	void set(class_type* obj, memfunc_type func, uint32_t ms, bool repeat = true, void* arg = NULL)$/;"	f	class:timer
+set	period_timer.h	/^	void set(memfunc_type func, uint32_t ms, bool repeat = true, void* arg = NULL)$/;"	f	class:timer
+set_core_limit	misc_func.c	/^int set_core_limit(uint64_t max_size)$/;"	f
+set_defer_accept_sock	socket_func.cpp	/^SOCKET_RESULT set_defer_accept_sock(SOCKET fd, int defer)$/;"	f
+set_file_limit	misc_func.c	/^int set_file_limit(int max_fd)$/;"	f
+set_file_name	duplet_log.c	/^bool Log::set_file_name(const char* pszFileName\/* = NULL*\/, uint16_t u16ProcOrderNO\/* = -1*\/)$/;"	f	class:Log
+set_keep_alive_sock	socket_func.h	/^inline SOCKET_RESULT set_keep_alive_sock(SOCKET fd, int keep_alive_interval)$/;"	f
+set_linger_sock	socket_func.cpp	/^SOCKET_RESULT set_linger_sock(SOCKET fd, int on, int timeout)$/;"	f
+set_local_cfg	duplet_log.c	/^bool Log::set_local_cfg(LOG_LEVEL eLowestLevel\/* = LL_TRACE*\/, const char* pszDirPath\/* = NULL*\/, bool bDateCategory\/* = true*\/, uint32_t u32LimitLengthPerFile\/* = DEFAULT_LIMITLENGTH_PERFILE*\/, uint8_t u8FileCycleNum\/* = DEFAULT_FILE_NUM*\/)$/;"	f	class:Log
+set_no_delay_sock	socket_func.cpp	/^SOCKET_RESULT set_no_delay_sock(SOCKET fd, int no_delay)$/;"	f
+set_nonblock_sock	socket_func.h	/^inline SOCKET_RESULT set_nonblock_sock(SOCKET fd, unsigned int nonblock)$/;"	f
+set_proc_order_no	attr_report.c	/^void Report::set_proc_order_no(uint16_t u16ProcOrderNO\/* = -1*\/)$/;"	f	class:Report
+set_recv_buflen_sock	socket_func.h	/^inline SOCKET_RESULT set_recv_buflen_sock(SOCKET fd, int buf)$/;"	f
+set_remote_cfg	duplet_log.c	/^bool Log::set_remote_cfg(LOG_LEVEL eLowestLevel\/* = LL_NONE*\/)$/;"	f	class:Log
+set_reuse_addr_sock	socket_func.cpp	/^SOCKET_RESULT set_reuse_addr_sock(SOCKET fd, int reuse)$/;"	f
+set_send_buflen_sock	socket_func.h	/^inline SOCKET_RESULT set_send_buflen_sock(SOCKET fd, int buf)$/;"	f
+set_sock_addr	socket_func.h	/^inline SOCKET_RESULT set_sock_addr(struct sockaddr_in* addr, const char* ip, unsigned short port)$/;"	f
+set_sock_addr	socket_func.h	/^inline void set_sock_addr(struct sockaddr_in* addr, uint32_t iph, unsigned short porth)$/;"	f
+shutdown_sock	socket_func.h	/^inline SOCKET_RESULT shutdown_sock(SOCKET s, int how)$/;"	f
+singleton	singleton.h	/^	singleton(){};$/;"	f	class:singleton
+singleton	singleton.h	/^class singleton$/;"	c
+space	host_codec.h	/^	inline uint32_t space() const { return m_length - m_write; }$/;"	f	class:host_codec
+start	period_timer.cpp	/^void timer::start()$/;"	f	class:timer
+start_token	mmap_queue.h	/^	u32_t start_token; \/\/ 0x0000db03, if the head position is corrupted, find next start token$/;"	m	struct:mq_node_head_t
+static_func	period_timer.h	/^		void(*static_func)(timer*);$/;"	m	union:timer::__anon4
+stop	period_timer.cpp	/^void timer::stop()$/;"	f	class:timer
+str_trim	string_func.c	/^void str_trim(std::string& str)$/;"	f
+strerr_r	misc_func.c	/^int strerr_r(int errnum, char* buf, unsigned int len)$/;"	f
+string_by_addr	socket_func.h	/^inline string string_by_addr(const struct sockaddr_in* addr)$/;"	f
+string_by_iph	socket_func.h	/^inline string string_by_iph(uint32_t hbo_ip)$/;"	f
+string_by_ipn	socket_func.h	/^inline string string_by_ipn(uint32_t nbo_ip)$/;"	f
+strlcat	string_func.c	/^size_t strlcat(char *dst, const char *src, size_t siz)$/;"	f
+strlcpy	string_func.c	/^size_t strlcpy(char *dst, const char *src, size_t siz)$/;"	f
+tail_pos	mmap_queue.h	/^	volatile int tail_pos; \/\/ tail position in the queue, pointer for writting$/;"	m	struct:mq_head_t
+termtype	proto_header.h	/^	uint16_t 	termtype;		\/\/终端类型$/;"	m	struct:__anon2
+termtype	proto_header.h	/^	uint16_t termtype;			\/\/终端类型$/;"	m	struct:__anon3
+test_get	mmap_queue.c	/^void test_get(struct mmap_queue *queue, int proc_count, int count)$/;"	f
+test_put	mmap_queue.c	/^void test_put(struct mmap_queue *queue, int proc_count, int count, char *msg)$/;"	f
+time32_t	mmap_queue.h	57;"	d
+time32_t	mmap_queue.h	64;"	d
+timer	period_timer.cpp	/^timer::timer(struct ev_loop* loop)$/;"	f	class:timer
+timer	period_timer.h	/^class timer$/;"	c
+timer_callback	period_timer.cpp	/^static void timer_callback(struct ev_loop *, ev_timer *watcher, int)$/;"	f	file:
+timeval32	mmap_queue.h	/^struct timeval32$/;"	s
+timeval32	mmap_queue.h	65;"	d
+trace	duplet_log.c	/^int Log::Duplet::trace(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Duplet
+trace	duplet_log.c	/^int Log::Local::trace(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Local
+trace	duplet_log.c	/^int Log::Remote::trace(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Remote
+tv_sec	mmap_queue.h	/^	time32_t tv_sec;$/;"	m	struct:timeval32
+tv_usec	mmap_queue.h	/^	time32_t tv_usec;$/;"	m	struct:timeval32
+u16_t	mmap_queue.h	/^typedef unsigned short u16_t;$/;"	t
+u32_t	mmap_queue.h	/^typedef unsigned int u32_t;$/;"	t
+u64_t	mmap_queue.h	/^typedef unsigned long long u64_t;$/;"	t
+uid	proto_header.h	/^	uint32_t 	uid;			\/\/用户ID$/;"	m	struct:__anon2
+uid	proto_header.h	/^	uint32_t uid;				\/\/用户ID$/;"	m	struct:__anon3
+uninstance	singleton.h	/^	static void uninstance()$/;"	f	class:singleton
+warn	duplet_log.c	/^int Log::Duplet::warn(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Duplet
+warn	duplet_log.c	/^int Log::Local::warn(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Local
+warn	duplet_log.c	/^int Log::Remote::warn(const char* pszKeyword, const char* pszFormat, ...)$/;"	f	class:Log::Remote
+wmb	mmap_queue.c	35;"	d	file:
+wpos	host_codec.h	/^	inline uint32_t wpos() { return m_write; }$/;"	f	class:host_codec
+wpos	host_codec.h	/^	inline void wpos(uint32_t p) { m_write = p; }$/;"	f	class:host_codec
+write	host_codec.cpp	/^host_codec& host_codec::write(uint32_t length, const void* data)$/;"	f	class:host_codec
+write	host_codec.cpp	/^host_codec& host_codec::write(uint32_t step)$/;"	f	class:host_codec
+zlib_unzip	misc_func.c	/^int zlib_unzip(uint8_t* output, uint32_t output_max_len, uint8_t* input, uint32_t input_len)$/;"	f
+zlib_zip	misc_func.c	/^int zlib_zip(uint8_t* output, uint32_t output_max_len, uint8_t* input, uint32_t input_len)$/;"	f
+~auto_mutex	auto_mutex.cpp	/^auto_mutex::~auto_mutex()$/;"	f	class:auto_mutex
+~host_codec	host_codec.h	/^	virtual ~host_codec() {}$/;"	f	class:host_codec
+~section	conf_file.cpp	/^	section::~section()$/;"	f	class:Config::section
+~timer	period_timer.cpp	/^timer::~timer()$/;"	f	class:timer

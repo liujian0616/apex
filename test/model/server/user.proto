@@ -1,0 +1,22 @@
+syntax = "proto3";
+package user;
+
+message UserInfo
+{
+	bytes name = 1;
+	uint32 age = 2;
+	bytes address = 3;
+}
+
+message UserID
+{
+	uint64 user_id = 1;
+}
+
+service UserService
+{
+	rpc AddUser(UserInfo) returns (UserID);
+	rpc GetUser(UserID) returns (UserInfo);
+}
+
+option cc_generic_services = true;

@@ -1,0 +1,2 @@
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/libmariadb/CMakeFiles/mariadb_obj.dir
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/libmariadb/CMakeFiles/mariadbclient.dir

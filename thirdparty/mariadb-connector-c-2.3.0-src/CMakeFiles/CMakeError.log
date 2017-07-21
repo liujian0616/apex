@@ -1,0 +1,1523 @@
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2776603495/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2776603495.dir/build.make CMakeFiles/cmTryCompileExec2776603495.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2776603495.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=dlopen   -o CMakeFiles/cmTryCompileExec2776603495.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2776603495
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2776603495.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec2776603495.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2776603495 -rdynamic 
+CMakeFiles/cmTryCompileExec2776603495.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `dlopen'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2776603495] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2776603495/fast] Error 2
+
+
+Determining if the function floor exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1461093797/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1461093797.dir/build.make CMakeFiles/cmTryCompileExec1461093797.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1461093797.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=floor   -o CMakeFiles/cmTryCompileExec1461093797.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function ‘floor’
+Linking C executable cmTryCompileExec1461093797
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1461093797.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=floor    CMakeFiles/cmTryCompileExec1461093797.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1461093797 -rdynamic 
+CMakeFiles/cmTryCompileExec1461093797.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `floor'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1461093797] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1461093797/fast] Error 2
+
+
+Determining if the function pthread_getspecific exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4134347914/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4134347914.dir/build.make CMakeFiles/cmTryCompileExec4134347914.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4134347914.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_getspecific   -o CMakeFiles/cmTryCompileExec4134347914.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4134347914
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4134347914.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_getspecific    CMakeFiles/cmTryCompileExec4134347914.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4134347914 -rdynamic 
+CMakeFiles/cmTryCompileExec4134347914.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_getspecific'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec4134347914] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4134347914/fast] Error 2
+
+
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3084927771/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3084927771.dir/build.make CMakeFiles/cmTryCompileExec3084927771.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3084927771.dir/CheckSymbolExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized    -o CMakeFiles/cmTryCompileExec3084927771.dir/CheckSymbolExists.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec3084927771
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3084927771.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized     CMakeFiles/cmTryCompileExec3084927771.dir/CheckSymbolExists.c.o  -o cmTryCompileExec3084927771 -rdynamic 
+CMakeFiles/cmTryCompileExec3084927771.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0xc): undefined reference to `pthread_create'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3084927771] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3084927771/fast] Error 2
+
+File /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec481704334/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec481704334.dir/build.make CMakeFiles/cmTryCompileExec481704334.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec481704334.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec481704334.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec481704334
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec481704334.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec481704334.dir/CheckFunctionExists.c.o  -o cmTryCompileExec481704334 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec481704334] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec481704334/fast] Error 2
+
+
+Determining if files fpu/control.h exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec607711539/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec607711539.dir/build.make CMakeFiles/cmTryCompileExec607711539.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec607711539.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec607711539.dir/CheckIncludeFiles.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:25: error: fpu/control.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec607711539.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec607711539/fast] Error 2
+
+Source:
+/* */
+#include <fpu/control.h>
+
+
+int main(){return 0;}
+
+Determining if files ieeefp.h exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3122940012/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3122940012.dir/build.make CMakeFiles/cmTryCompileExec3122940012.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3122940012.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3122940012.dir/CheckIncludeFiles.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: error: ieeefp.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3122940012.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3122940012/fast] Error 2
+
+Source:
+/* */
+#include <ieeefp.h>
+
+
+int main(){return 0;}
+
+Determining if files select.h exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4222565301/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4222565301.dir/build.make CMakeFiles/cmTryCompileExec4222565301.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4222565301.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec4222565301.dir/CheckIncludeFiles.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: error: select.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4222565301.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4222565301/fast] Error 2
+
+Source:
+/* */
+#include <select.h>
+
+
+int main(){return 0;}
+
+Determining if files synch.h exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3713919036/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3713919036.dir/build.make CMakeFiles/cmTryCompileExec3713919036.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3713919036.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3713919036.dir/CheckIncludeFiles.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:19: error: synch.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3713919036.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3713919036/fast] Error 2
+
+Source:
+/* */
+#include <synch.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/fpu.h exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2549537354/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2549537354.dir/build.make CMakeFiles/cmTryCompileExec2549537354.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2549537354.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2549537354.dir/CheckIncludeFiles.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:21: error: sys/fpu.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2549537354.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2549537354/fast] Error 2
+
+Source:
+/* */
+#include <sys/fpu.h>
+
+
+int main(){return 0;}
+
+Determining if files sys/stream.h exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2909410947/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2909410947.dir/build.make CMakeFiles/cmTryCompileExec2909410947.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2909410947.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2909410947.dir/CheckIncludeFiles.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:24: error: sys/stream.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2909410947.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2909410947/fast] Error 2
+
+Source:
+/* */
+#include <sys/stream.h>
+
+
+int main(){return 0;}
+
+Determining if files sysent.h exist failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3339880464/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3339880464.dir/build.make CMakeFiles/cmTryCompileExec3339880464.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3339880464.dir/CheckIncludeFiles.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3339880464.dir/CheckIncludeFiles.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CheckIncludeFiles.c:2:20: error: sysent.h: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTryCompileExec3339880464.dir/CheckIncludeFiles.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3339880464/fast] Error 2
+
+Source:
+/* */
+#include <sysent.h>
+
+
+int main(){return 0;}
+
+Determining if the function aiowait exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3310976397/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3310976397.dir/build.make CMakeFiles/cmTryCompileExec3310976397.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3310976397.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=aiowait -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3310976397.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3310976397
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3310976397.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=aiowait    CMakeFiles/cmTryCompileExec3310976397.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3310976397 -rdynamic 
+CMakeFiles/cmTryCompileExec3310976397.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `aiowait'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3310976397] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3310976397/fast] Error 2
+
+
+Determining if the function alloca exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3960267525/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3960267525.dir/build.make CMakeFiles/cmTryCompileExec3960267525.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3960267525.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=alloca -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3960267525.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function ‘alloca’
+Linking C executable cmTryCompileExec3960267525
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3960267525.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=alloca    CMakeFiles/cmTryCompileExec3960267525.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3960267525 -rdynamic 
+CMakeFiles/cmTryCompileExec3960267525.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `alloca'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3960267525] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3960267525/fast] Error 2
+
+
+Determining if the function bfill exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1642066356/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1642066356.dir/build.make CMakeFiles/cmTryCompileExec1642066356.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1642066356.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=bfill -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1642066356.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1642066356
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1642066356.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=bfill    CMakeFiles/cmTryCompileExec1642066356.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1642066356 -rdynamic 
+CMakeFiles/cmTryCompileExec1642066356.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `bfill'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec1642066356] Error 1
+gmake: *** [cmTryCompileExec1642066356/fast] Error 2
+
+
+Determining if the function bmove exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3598405866/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3598405866.dir/build.make CMakeFiles/cmTryCompileExec3598405866.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3598405866.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=bmove -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3598405866.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3598405866
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3598405866.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=bmove    CMakeFiles/cmTryCompileExec3598405866.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3598405866 -rdynamic 
+CMakeFiles/cmTryCompileExec3598405866.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `bmove'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3598405866] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3598405866/fast] Error 2
+
+
+Determining if the function clock_gettime exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3626484833/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3626484833.dir/build.make CMakeFiles/cmTryCompileExec3626484833.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3626484833.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=clock_gettime -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3626484833.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3626484833
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3626484833.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=clock_gettime    CMakeFiles/cmTryCompileExec3626484833.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3626484833 -rdynamic 
+CMakeFiles/cmTryCompileExec3626484833.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `clock_gettime'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3626484833] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3626484833/fast] Error 2
+
+
+Determining if the function compress exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2939376096/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2939376096.dir/build.make CMakeFiles/cmTryCompileExec2939376096.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2939376096.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=compress -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2939376096.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2939376096
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2939376096.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=compress    CMakeFiles/cmTryCompileExec2939376096.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2939376096 -rdynamic 
+CMakeFiles/cmTryCompileExec2939376096.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `compress'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2939376096] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2939376096/fast] Error 2
+
+
+Determining if the function crypt exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1905048467/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1905048467.dir/build.make CMakeFiles/cmTryCompileExec1905048467.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1905048467.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=crypt -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1905048467.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1905048467
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1905048467.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=crypt    CMakeFiles/cmTryCompileExec1905048467.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1905048467 -rdynamic 
+CMakeFiles/cmTryCompileExec1905048467.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `crypt'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1905048467] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1905048467/fast] Error 2
+
+
+Determining if the function dlerror exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec775037818/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec775037818.dir/build.make CMakeFiles/cmTryCompileExec775037818.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec775037818.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=dlerror -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec775037818.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec775037818
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec775037818.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=dlerror    CMakeFiles/cmTryCompileExec775037818.dir/CheckFunctionExists.c.o  -o cmTryCompileExec775037818 -rdynamic 
+CMakeFiles/cmTryCompileExec775037818.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `dlerror'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec775037818] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec775037818/fast] Error 2
+
+
+Determining if the function dlopen exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec883063764/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec883063764.dir/build.make CMakeFiles/cmTryCompileExec883063764.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec883063764.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=dlopen -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec883063764.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec883063764
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec883063764.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=dlopen    CMakeFiles/cmTryCompileExec883063764.dir/CheckFunctionExists.c.o  -o cmTryCompileExec883063764 -rdynamic 
+CMakeFiles/cmTryCompileExec883063764.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `dlopen'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec883063764] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec883063764/fast] Error 2
+
+
+Determining if the function fconvert exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2815066379/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2815066379.dir/build.make CMakeFiles/cmTryCompileExec2815066379.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2815066379.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=fconvert -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2815066379.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2815066379
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2815066379.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=fconvert    CMakeFiles/cmTryCompileExec2815066379.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2815066379 -rdynamic 
+CMakeFiles/cmTryCompileExec2815066379.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fconvert'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2815066379] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2815066379/fast] Error 2
+
+
+Determining if the function fesetround exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2868365512/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2868365512.dir/build.make CMakeFiles/cmTryCompileExec2868365512.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2868365512.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=fesetround -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2868365512.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2868365512
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2868365512.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=fesetround    CMakeFiles/cmTryCompileExec2868365512.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2868365512 -rdynamic 
+CMakeFiles/cmTryCompileExec2868365512.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `fesetround'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2868365512] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2868365512/fast] Error 2
+
+
+Determining if the function gethrtime exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2047910754/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2047910754.dir/build.make CMakeFiles/cmTryCompileExec2047910754.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2047910754.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=gethrtime -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2047910754.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2047910754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2047910754.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=gethrtime    CMakeFiles/cmTryCompileExec2047910754.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2047910754 -rdynamic 
+CMakeFiles/cmTryCompileExec2047910754.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `gethrtime'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2047910754] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2047910754/fast] Error 2
+
+
+Determining if the function getpassphrase exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec825300536/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec825300536.dir/build.make CMakeFiles/cmTryCompileExec825300536.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec825300536.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=getpassphrase -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec825300536.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec825300536
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec825300536.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=getpassphrase    CMakeFiles/cmTryCompileExec825300536.dir/CheckFunctionExists.c.o  -o cmTryCompileExec825300536 -rdynamic 
+CMakeFiles/cmTryCompileExec825300536.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `getpassphrase'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec825300536] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec825300536/fast] Error 2
+
+
+Determining if the function log2 exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1951966092/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1951966092.dir/build.make CMakeFiles/cmTryCompileExec1951966092.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1951966092.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=log2 -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1951966092.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+/usr/share/cmake/Modules/CheckFunctionExists.c:3: warning: conflicting types for built-in function ‘log2’
+Linking C executable cmTryCompileExec1951966092
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1951966092.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=log2    CMakeFiles/cmTryCompileExec1951966092.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1951966092 -rdynamic 
+CMakeFiles/cmTryCompileExec1951966092.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `log2'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1951966092] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1951966092/fast] Error 2
+
+
+Determining if the function pthread_attr_create exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1759611513/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1759611513.dir/build.make CMakeFiles/cmTryCompileExec1759611513.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1759611513.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_create -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1759611513.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1759611513
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1759611513.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_create    CMakeFiles/cmTryCompileExec1759611513.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1759611513 -rdynamic 
+CMakeFiles/cmTryCompileExec1759611513.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_attr_create'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1759611513] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1759611513/fast] Error 2
+
+
+Determining if the function pthread_attr_getstacksize exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1002304393/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1002304393.dir/build.make CMakeFiles/cmTryCompileExec1002304393.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1002304393.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_getstacksize -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1002304393.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1002304393
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1002304393.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_getstacksize    CMakeFiles/cmTryCompileExec1002304393.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1002304393 -rdynamic 
+CMakeFiles/cmTryCompileExec1002304393.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_attr_getstacksize'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1002304393] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1002304393/fast] Error 2
+
+
+Determining if the function pthread_attr_setprio exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3246554378/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3246554378.dir/build.make CMakeFiles/cmTryCompileExec3246554378.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3246554378.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_setprio -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3246554378.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3246554378
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3246554378.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_setprio    CMakeFiles/cmTryCompileExec3246554378.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3246554378 -rdynamic 
+CMakeFiles/cmTryCompileExec3246554378.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_attr_setprio'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3246554378] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3246554378/fast] Error 2
+
+
+Determining if the function pthread_attr_setstacksize exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3208495508/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3208495508.dir/build.make CMakeFiles/cmTryCompileExec3208495508.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3208495508.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_setstacksize -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3208495508.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3208495508
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3208495508.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_attr_setstacksize    CMakeFiles/cmTryCompileExec3208495508.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3208495508 -rdynamic 
+CMakeFiles/cmTryCompileExec3208495508.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_attr_setstacksize'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3208495508] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3208495508/fast] Error 2
+
+
+Determining if the function pthread_condattr_create exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec639577751/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec639577751.dir/build.make CMakeFiles/cmTryCompileExec639577751.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec639577751.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_condattr_create -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec639577751.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec639577751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec639577751.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_condattr_create    CMakeFiles/cmTryCompileExec639577751.dir/CheckFunctionExists.c.o  -o cmTryCompileExec639577751 -rdynamic 
+CMakeFiles/cmTryCompileExec639577751.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_condattr_create'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec639577751] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec639577751/fast] Error 2
+
+
+Determining if the function pthread_init exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2676792675/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2676792675.dir/build.make CMakeFiles/cmTryCompileExec2676792675.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2676792675.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_init -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2676792675.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2676792675
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2676792675.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_init    CMakeFiles/cmTryCompileExec2676792675.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2676792675 -rdynamic 
+CMakeFiles/cmTryCompileExec2676792675.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_init'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2676792675] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2676792675/fast] Error 2
+
+
+Determining if the function pthread_key_delete exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec120871281/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec120871281.dir/build.make CMakeFiles/cmTryCompileExec120871281.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec120871281.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_key_delete -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec120871281.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec120871281
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec120871281.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_key_delete    CMakeFiles/cmTryCompileExec120871281.dir/CheckFunctionExists.c.o  -o cmTryCompileExec120871281 -rdynamic 
+CMakeFiles/cmTryCompileExec120871281.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_key_delete'
+collect2: ld returned 1 exit status
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake[1]: *** [cmTryCompileExec120871281] Error 1
+gmake: *** [cmTryCompileExec120871281/fast] Error 2
+
+
+Determining if the function pthread_kill exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1995265985/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1995265985.dir/build.make CMakeFiles/cmTryCompileExec1995265985.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1995265985.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_kill -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1995265985.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1995265985
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1995265985.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_kill    CMakeFiles/cmTryCompileExec1995265985.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1995265985 -rdynamic 
+CMakeFiles/cmTryCompileExec1995265985.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_kill'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1995265985] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1995265985/fast] Error 2
+
+
+Determining if the function pthread_rwlock_rdlock exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1698828491/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1698828491.dir/build.make CMakeFiles/cmTryCompileExec1698828491.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1698828491.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_rwlock_rdlock -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1698828491.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1698828491
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1698828491.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_rwlock_rdlock    CMakeFiles/cmTryCompileExec1698828491.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1698828491 -rdynamic 
+CMakeFiles/cmTryCompileExec1698828491.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_rwlock_rdlock'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1698828491] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1698828491/fast] Error 2
+
+
+Determining if the function pthread_setprio_np exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec438230729/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec438230729.dir/build.make CMakeFiles/cmTryCompileExec438230729.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec438230729.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_setprio_np -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec438230729.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec438230729
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec438230729.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_setprio_np    CMakeFiles/cmTryCompileExec438230729.dir/CheckFunctionExists.c.o  -o cmTryCompileExec438230729 -rdynamic 
+CMakeFiles/cmTryCompileExec438230729.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_setprio_np'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec438230729] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec438230729/fast] Error 2
+
+
+Determining if the function pthread_sigmask exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec402425226/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec402425226.dir/build.make CMakeFiles/cmTryCompileExec402425226.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec402425226.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_sigmask -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec402425226.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec402425226
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec402425226.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_sigmask    CMakeFiles/cmTryCompileExec402425226.dir/CheckFunctionExists.c.o  -o cmTryCompileExec402425226 -rdynamic 
+CMakeFiles/cmTryCompileExec402425226.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_sigmask'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec402425226] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec402425226/fast] Error 2
+
+
+Determining if the function pthread_threadmask exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec494514150/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec494514150.dir/build.make CMakeFiles/cmTryCompileExec494514150.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec494514150.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_threadmask -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec494514150.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec494514150
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec494514150.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_threadmask    CMakeFiles/cmTryCompileExec494514150.dir/CheckFunctionExists.c.o  -o cmTryCompileExec494514150 -rdynamic 
+CMakeFiles/cmTryCompileExec494514150.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_threadmask'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec494514150] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec494514150/fast] Error 2
+
+
+Determining if the function pthread_yield_np exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1318294900/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1318294900.dir/build.make CMakeFiles/cmTryCompileExec1318294900.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1318294900.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_yield_np -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1318294900.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1318294900
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1318294900.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=pthread_yield_np    CMakeFiles/cmTryCompileExec1318294900.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1318294900 -rdynamic 
+CMakeFiles/cmTryCompileExec1318294900.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `pthread_yield_np'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1318294900] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1318294900/fast] Error 2
+
+
+Determining if the function setfd exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1926588322/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1926588322.dir/build.make CMakeFiles/cmTryCompileExec1926588322.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1926588322.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=setfd -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1926588322.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1926588322
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1926588322.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=setfd    CMakeFiles/cmTryCompileExec1926588322.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1926588322 -rdynamic 
+CMakeFiles/cmTryCompileExec1926588322.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setfd'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1926588322] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1926588322/fast] Error 2
+
+
+Determining if the function setfilepointer exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2043877411/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2043877411.dir/build.make CMakeFiles/cmTryCompileExec2043877411.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2043877411.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=setfilepointer -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2043877411.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec2043877411
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2043877411.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=setfilepointer    CMakeFiles/cmTryCompileExec2043877411.dir/CheckFunctionExists.c.o  -o cmTryCompileExec2043877411 -rdynamic 
+CMakeFiles/cmTryCompileExec2043877411.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `setfilepointer'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec2043877411] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2043877411/fast] Error 2
+
+
+Determining if the function sigthreadmask exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec3775907164/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec3775907164.dir/build.make CMakeFiles/cmTryCompileExec3775907164.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3775907164.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=sigthreadmask -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec3775907164.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec3775907164
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3775907164.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=sigthreadmask    CMakeFiles/cmTryCompileExec3775907164.dir/CheckFunctionExists.c.o  -o cmTryCompileExec3775907164 -rdynamic 
+CMakeFiles/cmTryCompileExec3775907164.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `sigthreadmask'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec3775907164] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec3775907164/fast] Error 2
+
+
+Determining if the function strlcpy exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4144467237/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4144467237.dir/build.make CMakeFiles/cmTryCompileExec4144467237.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4144467237.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=strlcpy -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec4144467237.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec4144467237
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4144467237.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=strlcpy    CMakeFiles/cmTryCompileExec4144467237.dir/CheckFunctionExists.c.o  -o cmTryCompileExec4144467237 -rdynamic 
+CMakeFiles/cmTryCompileExec4144467237.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `strlcpy'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec4144467237] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4144467237/fast] Error 2
+
+
+Determining if the function tell exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1543564050/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1543564050.dir/build.make CMakeFiles/cmTryCompileExec1543564050.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1543564050.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=tell -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1543564050.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1543564050
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1543564050.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=tell    CMakeFiles/cmTryCompileExec1543564050.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1543564050 -rdynamic 
+CMakeFiles/cmTryCompileExec1543564050.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `tell'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec1543564050] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1543564050/fast] Error 2
+
+
+Determining if the function thr_setconcurrency exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec528827798/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec528827798.dir/build.make CMakeFiles/cmTryCompileExec528827798.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec528827798.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=thr_setconcurrency -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec528827798.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec528827798
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec528827798.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=thr_setconcurrency    CMakeFiles/cmTryCompileExec528827798.dir/CheckFunctionExists.c.o  -o cmTryCompileExec528827798 -rdynamic 
+CMakeFiles/cmTryCompileExec528827798.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_setconcurrency'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec528827798] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec528827798/fast] Error 2
+
+
+Determining if the function thr_yield exists failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec959324832/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec959324832.dir/build.make CMakeFiles/cmTryCompileExec959324832.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec959324832.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=thr_yield -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec959324832.dir/CheckFunctionExists.c.o   -c /usr/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec959324832
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec959324832.dir/link.txt --verbose=1
+/usr/bin/cc   -Wunused -Wno-uninitialized -DCHECK_FUNCTION_EXISTS=thr_yield    CMakeFiles/cmTryCompileExec959324832.dir/CheckFunctionExists.c.o  -o cmTryCompileExec959324832 -rdynamic 
+CMakeFiles/cmTryCompileExec959324832.dir/CheckFunctionExists.c.o: In function `main':
+CheckFunctionExists.c:(.text+0x15): undefined reference to `thr_yield'
+collect2: ld returned 1 exit status
+gmake[1]: *** [cmTryCompileExec959324832] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec959324832/fast] Error 2
+
+
+Determining size of uchar failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1647049834/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1647049834.dir/build.make CMakeFiles/cmTryCompileExec1647049834.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1647049834.dir/SIZEOF_UCHAR.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1647049834.dir/SIZEOF_UCHAR.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:20: error: ‘uchar’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1647049834.dir/SIZEOF_UCHAR.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1647049834/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UCHAR.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uchar))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int8 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1347602293/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1347602293.dir/build.make CMakeFiles/cmTryCompileExec1347602293.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1347602293.dir/SIZEOF_INT8.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1347602293.dir/SIZEOF_INT8.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:20: error: ‘int8’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1347602293.dir/SIZEOF_INT8.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1347602293/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint8 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1803066612/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1803066612.dir/build.make CMakeFiles/cmTryCompileExec1803066612.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1803066612.dir/SIZEOF_UINT8.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1803066612.dir/SIZEOF_UINT8.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:20: error: ‘uint8’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1803066612.dir/SIZEOF_UINT8.c.o] Error 1
+gmake: *** [cmTryCompileExec1803066612/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT8.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint8))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int16 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec803756103/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec803756103.dir/build.make CMakeFiles/cmTryCompileExec803756103.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec803756103.dir/SIZEOF_INT16.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec803756103.dir/SIZEOF_INT16.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:20: error: ‘int16’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec803756103.dir/SIZEOF_INT16.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec803756103/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint16 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1919637095/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1919637095.dir/build.make CMakeFiles/cmTryCompileExec1919637095.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1919637095.dir/SIZEOF_UINT16.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1919637095.dir/SIZEOF_UINT16.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:20: error: ‘uint16’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1919637095.dir/SIZEOF_UINT16.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec1919637095/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT16.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint16))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int32 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec4209997783/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec4209997783.dir/build.make CMakeFiles/cmTryCompileExec4209997783.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4209997783.dir/SIZEOF_INT32.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec4209997783.dir/SIZEOF_INT32.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:20: error: ‘int32’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec4209997783.dir/SIZEOF_INT32.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec4209997783/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint32 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec927673430/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec927673430.dir/build.make CMakeFiles/cmTryCompileExec927673430.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec927673430.dir/SIZEOF_UINT32.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec927673430.dir/SIZEOF_UINT32.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:20: error: ‘uint32’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec927673430.dir/SIZEOF_UINT32.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec927673430/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT32.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint32))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of int64 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec1953687427/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec1953687427.dir/build.make CMakeFiles/cmTryCompileExec1953687427.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1953687427.dir/SIZEOF_INT64.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec1953687427.dir/SIZEOF_INT64.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:20: error: ‘int64’ undeclared here (not in a function)
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake[1]: *** [CMakeFiles/cmTryCompileExec1953687427.dir/SIZEOF_INT64.c.o] Error 1
+gmake: *** [cmTryCompileExec1953687427/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_INT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(int64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of uint64 failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec548693241/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec548693241.dir/build.make CMakeFiles/cmTryCompileExec548693241.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec548693241.dir/SIZEOF_UINT64.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec548693241.dir/SIZEOF_UINT64.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:20: error: ‘uint64’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec548693241.dir/SIZEOF_UINT64.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec548693241/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_UINT64.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(uint64))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
+Determining size of socklen_t failed with the following output:
+Change Dir: /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/gmake "cmTryCompileExec2137462253/fast"
+/usr/bin/gmake -f CMakeFiles/cmTryCompileExec2137462253.dir/build.make CMakeFiles/cmTryCompileExec2137462253.dir/build
+gmake[1]: Entering directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2137462253.dir/SIZEOF_SOCKLEN_T.c.o
+/usr/bin/cc   -Wunused -Wno-uninitialized  -I/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp/pthread.h    -o CMakeFiles/cmTryCompileExec2137462253.dir/SIZEOF_SOCKLEN_T.c.o   -c /home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:20: error: ‘socklen_t’ undeclared here (not in a function)
+gmake[1]: *** [CMakeFiles/cmTryCompileExec2137462253.dir/SIZEOF_SOCKLEN_T.c.o] Error 1
+gmake[1]: Leaving directory `/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CMakeTmp'
+gmake: *** [cmTryCompileExec2137462253/fast] Error 2
+
+/home/liujian/server_apex/apex/thirdparty/mariadb-connector-c-2.3.0-src/CMakeFiles/CheckTypeSize/SIZEOF_SOCKLEN_T.c:
+#include <sys/types.h>
+#include <stdint.h>
+#include <stddef.h>
+#include "sys/types.h"
+
+
+#undef KEY
+#if defined(__i386)
+# define KEY '_','_','i','3','8','6'
+#elif defined(__x86_64)
+# define KEY '_','_','x','8','6','_','6','4'
+#elif defined(__ppc__)
+# define KEY '_','_','p','p','c','_','_'
+#elif defined(__ppc64__)
+# define KEY '_','_','p','p','c','6','4','_','_'
+#endif
+
+#define SIZE (sizeof(socklen_t))
+char info_size[] =  {'I', 'N', 'F', 'O', ':', 's','i','z','e','[',
+  ('0' + ((SIZE / 10000)%10)),
+  ('0' + ((SIZE / 1000)%10)),
+  ('0' + ((SIZE / 100)%10)),
+  ('0' + ((SIZE / 10)%10)),
+  ('0' +  (SIZE    % 10)),
+  ']',
+#ifdef KEY
+  ' ','k','e','y','[', KEY, ']',
+#endif
+  '\0'};
+
+#ifdef __CLASSIC_C__
+int main(argc, argv) int argc; char *argv[];
+#else
+int main(int argc, char *argv[])
+#endif
+{
+  int require = 0;
+  require += info_size[argc];
+  (void)argv;
+  return require;
+}
+
+
